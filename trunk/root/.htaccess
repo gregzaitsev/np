@@ -1,0 +1,9 @@
+<Files ~ "^[\._]ht">
+    Order allow,deny
+    Allow from all
+    Satisfy All
+</Files>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}       !-f
+RewriteRule (.*)                      index/index.php  [QSA,L]

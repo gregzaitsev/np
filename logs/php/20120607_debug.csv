@@ -1,0 +1,8 @@
+12-Jun-07,16:56:12.495 5 **     fd44 sm_debug::write, Index file request: /
+12-Jun-07,16:56:12.552 7        fd44 sm_atm::__construct, Starting ATM: atm_default, ACP: 
+12-Jun-07,16:56:12.568 7        fd44 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+12-Jun-07,16:56:12.569 5 **     fd44 sm_sess::_read, Seesion file does not exist.
+12-Jun-07,16:56:12.655 5 **     601c sm_debug::write, Index file request: /login/
+12-Jun-07,16:56:12.685 7        601c sm_atm::__construct, Starting ATM: atm_login, ACP: 
+12-Jun-07,16:56:12.686 7        601c sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+12-Jun-07,16:56:12.694 7        601c atm_login::acp_showLogin, Loading configuration for login page

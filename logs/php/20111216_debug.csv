@@ -1,0 +1,1743 @@
+11-Dec-16,17:13:39.275 5 **     3e92 sm_debug::write, Index file request: /tasks
+11-Dec-16,17:13:39.284 7        3e92 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-16,17:13:39.285 7        3e92 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:13:39.294 7        3e92 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-16,17:13:39.296 7        3e92 ent_task::getOpenList, Tasks found: 8
+11-Dec-16,17:13:39.296 7        3e92 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-16,17:13:39.297 7        3e92 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-16,17:13:39.297 7        3e92 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:13:39.298 7        3e92 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:13:39.298 7        3e92 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:13:39.298 7        3e92 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:13:39.299 7        3e92 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:13:39.299 7        3e92 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:13:39.299 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:13:39.300 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:13:39.300 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-16,17:13:39.300 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-16,17:13:39.301 7        3e92 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:13:39.302 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.303 7        3e92 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-16,17:13:39.303 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:13:39.303 7        3e92 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:13:39.304 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.305 7        3e92 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-16,17:13:39.306 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:13:39.306 7        3e92 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:13:39.307 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.307 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-16,17:13:39.308 7        3e92 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:13:39.309 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.309 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-16,17:13:39.310 7        3e92 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:13:39.311 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.311 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 7
+11-Dec-16,17:13:39.311 7        3e92 atm_tasks::adjustParentDeadline, Task ID: 8
+11-Dec-16,17:13:39.312 7        3e92 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-16,17:13:39.312 7        3e92 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-16,17:13:39.313 7        3e92 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:13:39.313 7        3e92 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:13:39.313 7        3e92 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:13:39.314 7        3e92 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:13:39.314 7        3e92 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:13:39.315 7        3e92 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:13:39.315 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:13:39.315 7        3e92 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:13:39.316 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.316 7        3e92 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:13:39.316 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.316 7        3e92 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:13:39.317 7        3e92 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:13:39.317 7        3e92 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:13:39.318 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.318 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:13:39.319 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.319 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.319 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.319 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.319 7        3e92 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 17:13:39
+11-Dec-16,17:13:39.320 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.320 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.320 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.320 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324074819
+11-Dec-16,17:13:39.321 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 17:13:39
+11-Dec-16,17:13:39.321 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 17:33:39
+11-Dec-16,17:13:39.321 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.321 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.321 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-16,17:13:39.322 7        3e92 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:13:39.322 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.322 7        3e92 ent_dependency::depend_children, Getting children of 2
+11-Dec-16,17:13:39.323 7        3e92 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:13:39.323 7        3e92 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:13:39.323 7        3e92 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:13:39.324 7        3e92 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:13:39.324 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.324 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:13:39.325 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.325 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.325 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.325 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.325 7        3e92 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-16 17:13:39
+11-Dec-16,17:13:39.326 7        3e92 atm_tasks::insertTaskToSchedule, Removing task 1
+11-Dec-16,17:13:39.326 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:13:39.326 7        3e92 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:13:39.327 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.327 7        3e92 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:13:39.327 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.328 7        3e92 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:13:39.328 7        3e92 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:13:39.328 7        3e92 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:13:39.329 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.329 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:13:39.330 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 0
+11-Dec-16,17:13:39.330 7        3e92 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:13:39.330 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.330 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.330 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.331 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.331 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076619
+11-Dec-16,17:13:39.331 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 17:13:39
+11-Dec-16,17:13:39.331 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 18:03:39
+11-Dec-16,17:13:39.331 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:03:39
+11-Dec-16,17:13:39.332 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 18:03:39
+11-Dec-16,17:13:39.332 7        3e92 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 18:03:39
+11-Dec-16,17:13:39.332 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.332 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.333 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.333 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076619
+11-Dec-16,17:13:39.333 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 17:13:39
+11-Dec-16,17:13:39.333 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 18:03:39
+11-Dec-16,17:13:39.334 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.334 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076619
+11-Dec-16,17:13:39.334 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.334 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077819
+11-Dec-16,17:13:39.335 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 18:03:39
+11-Dec-16,17:13:39.335 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 18:23:39
+11-Dec-16,17:13:39.335 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.335 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.335 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:03:39
+11-Dec-16,17:13:39.336 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.336 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.336 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.336 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076619
+11-Dec-16,17:13:39.336 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 17:13:39
+11-Dec-16,17:13:39.337 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 18:03:39
+11-Dec-16,17:13:39.337 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.337 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076619
+11-Dec-16,17:13:39.337 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.337 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077819
+11-Dec-16,17:13:39.338 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 18:03:39
+11-Dec-16,17:13:39.338 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 18:23:39
+11-Dec-16,17:13:39.338 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.338 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.338 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:03:39
+11-Dec-16,17:13:39.339 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-16,17:13:39.339 7        3e92 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-16,17:13:39.339 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.340 7        3e92 ent_dependency::depend_children, Getting children of 3
+11-Dec-16,17:13:39.340 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.341 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:13:39.341 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.341 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.341 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.342 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.342 7        3e92 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-16 17:13:39
+11-Dec-16,17:13:39.342 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.342 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.343 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.343 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.343 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 17:13:39
+11-Dec-16,17:13:39.343 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 18:13:39
+11-Dec-16,17:13:39.343 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.344 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.344 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.344 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080219
+11-Dec-16,17:13:39.344 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 18:13:39
+11-Dec-16,17:13:39.344 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 19:03:39
+11-Dec-16,17:13:39.345 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.345 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080219
+11-Dec-16,17:13:39.345 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.345 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324081419
+11-Dec-16,17:13:39.345 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 19:03:39
+11-Dec-16,17:13:39.346 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 19:23:39
+11-Dec-16,17:13:39.346 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.346 7        3e92 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.346 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:13:39
+11-Dec-16,17:13:39.346 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:03:39
+11-Dec-16,17:13:39.347 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-16,17:13:39.347 7        3e92 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:13:39.347 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.348 7        3e92 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:13:39.348 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.348 7        3e92 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:13:39.349 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.349 7        3e92 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:13:39.349 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.350 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:13:39.350 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 2
+11-Dec-16,17:13:39.350 7        3e92 atm_tasks::insertTaskToSchedule, Task 3 skipped
+11-Dec-16,17:13:39.350 7        3e92 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:13:39.351 7        3e92 atm_tasks::insertTaskToSchedule, Task 1 skipped
+11-Dec-16,17:13:39.351 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.351 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.351 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.351 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.352 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.352 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 17:13:39
+11-Dec-16,17:13:39.352 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 18:13:39
+11-Dec-16,17:13:39.352 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.352 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080219
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 18:13:39
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 19:03:39
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.353 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080219
+11-Dec-16,17:13:39.354 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.354 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324081419
+11-Dec-16,17:13:39.354 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 19:03:39
+11-Dec-16,17:13:39.354 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 19:23:39
+11-Dec-16,17:13:39.354 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 19:23:39
+11-Dec-16,17:13:39.355 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 19:23:39
+11-Dec-16,17:13:39.355 7        3e92 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-16 19:23:39
+11-Dec-16,17:13:39.355 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.355 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.356 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.356 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.356 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 17:13:39
+11-Dec-16,17:13:39.356 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 18:13:39
+11-Dec-16,17:13:39.356 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.357 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.357 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.357 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080219
+11-Dec-16,17:13:39.357 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 18:13:39
+11-Dec-16,17:13:39.357 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 19:03:39
+11-Dec-16,17:13:39.358 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.358 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080219
+11-Dec-16,17:13:39.358 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.358 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324081419
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 19:03:39
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 19:23:39
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324081419
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.359 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324083819
+11-Dec-16,17:13:39.360 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 19:23:39
+11-Dec-16,17:13:39.360 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 20:03:39
+11-Dec-16,17:13:39.360 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.360 7        3e92 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.360 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:13:39
+11-Dec-16,17:13:39.361 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:03:39
+11-Dec-16,17:13:39.361 7        3e92 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:23:39
+11-Dec-16,17:13:39.361 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-16,17:13:39.361 7        3e92 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:13:39.362 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.362 7        3e92 ent_dependency::depend_children, Getting children of 5
+11-Dec-16,17:13:39.363 7        3e92 ent_dependency::depend_children, Tasks found: 2
+11-Dec-16,17:13:39.363 7        3e92 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:13:39.363 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.364 7        3e92 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:13:39.364 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.364 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:13:39.365 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.365 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.365 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.365 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.365 7        3e92 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-16 17:13:39
+11-Dec-16,17:13:39.366 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.366 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.366 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.366 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324074819
+11-Dec-16,17:13:39.366 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:13:39
+11-Dec-16,17:13:39.367 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 17:33:39
+11-Dec-16,17:13:39.367 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.367 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324074819
+11-Dec-16,17:13:39.367 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.367 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324078419
+11-Dec-16,17:13:39.368 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 17:33:39
+11-Dec-16,17:13:39.368 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 18:33:39
+11-Dec-16,17:13:39.368 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.368 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324078419
+11-Dec-16,17:13:39.368 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.369 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324081419
+11-Dec-16,17:13:39.369 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 18:33:39
+11-Dec-16,17:13:39.369 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 19:23:39
+11-Dec-16,17:13:39.369 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.369 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324081419
+11-Dec-16,17:13:39.370 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.370 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324082619
+11-Dec-16,17:13:39.370 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 19:23:39
+11-Dec-16,17:13:39.370 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 19:43:39
+11-Dec-16,17:13:39.370 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324082619
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324085019
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 19:43:39
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 20:23:39
+11-Dec-16,17:13:39.371 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.372 7        3e92 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.372 7        3e92 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:33:39
+11-Dec-16,17:13:39.372 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:33:39
+11-Dec-16,17:13:39.372 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:23:39
+11-Dec-16,17:13:39.372 7        3e92 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:43:39
+11-Dec-16,17:13:39.373 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-16,17:13:39.373 7        3e92 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:13:39.373 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.373 7        3e92 ent_dependency::depend_children, Getting children of 6
+11-Dec-16,17:13:39.374 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.374 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:13:39.374 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.375 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.375 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.375 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.375 7        3e92 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-16 17:13:39
+11-Dec-16,17:13:39.376 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.376 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.376 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.376 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.377 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.378 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.378 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.378 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.378 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.378 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.379 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080819
+11-Dec-16,17:13:39.379 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 18:13:39
+11-Dec-16,17:13:39.379 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 19:13:39
+11-Dec-16,17:13:39.379 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.379 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080819
+11-Dec-16,17:13:39.380 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.380 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324083819
+11-Dec-16,17:13:39.380 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 19:13:39
+11-Dec-16,17:13:39.380 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 20:03:39
+11-Dec-16,17:13:39.380 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324083819
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324085019
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 20:03:39
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 20:23:39
+11-Dec-16,17:13:39.381 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.382 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324085019
+11-Dec-16,17:13:39.382 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.382 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324087419
+11-Dec-16,17:13:39.382 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 20:23:39
+11-Dec-16,17:13:39.382 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 21:03:39
+11-Dec-16,17:13:39.383 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:13:39.383 7        3e92 atm_tasks::insertTaskToSchedule,   6 start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.383 7        3e92 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:53:39
+11-Dec-16,17:13:39.383 7        3e92 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 18:13:39
+11-Dec-16,17:13:39.383 7        3e92 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 19:13:39
+11-Dec-16,17:13:39.384 7        3e92 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 20:03:39
+11-Dec-16,17:13:39.384 7        3e92 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 20:23:39
+11-Dec-16,17:13:39.384 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 7
+11-Dec-16,17:13:39.384 7        3e92 ent_dependency::depend_parents, Getting tasks that task 7 depends on.
+11-Dec-16,17:13:39.385 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.385 7        3e92 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:13:39.385 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.386 7        3e92 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:13:39.386 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.386 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:13:39.387 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:13:39.387 7        3e92 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:13:39.387 7        3e92 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:13:39.387 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.387 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.388 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.388 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.388 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.388 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.388 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.389 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.389 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.389 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.389 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.389 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.390 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.390 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:13:39
+11-Dec-16,17:13:39.390 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.390 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 272, Error: errstr: Undefined offset: 0, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 272
+11-Dec-16,17:13:39.391 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 273, Error: errstr: Undefined offset: 0, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 273
+11-Dec-16,17:13:39.391 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time with delay: 2011-12-16 18:13:39
+11-Dec-16,17:13:39.391 7        3e92 atm_tasks::insertTaskToSchedule, Task 7 added at time position 2011-12-16 18:13:39
+11-Dec-16,17:13:39.391 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.392 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.392 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.392 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.392 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.392 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.393 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.393 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.393 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.393 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.393 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.394 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.394 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.394 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.394 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.394 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080819
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 18:13:39
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 19:13:39
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080819
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.395 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324083819
+11-Dec-16,17:13:39.396 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 19:13:39
+11-Dec-16,17:13:39.396 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 20:03:39
+11-Dec-16,17:13:39.396 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.396 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324083819
+11-Dec-16,17:13:39.396 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.397 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324085019
+11-Dec-16,17:13:39.397 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 20:03:39
+11-Dec-16,17:13:39.397 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 20:23:39
+11-Dec-16,17:13:39.397 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.397 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324085019
+11-Dec-16,17:13:39.398 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.398 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324087419
+11-Dec-16,17:13:39.398 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 20:23:39
+11-Dec-16,17:13:39.398 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 21:03:39
+11-Dec-16,17:13:39.398 7        3e92 atm_tasks::calculateActualTimes, Task  duration: -1324011600 s
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, Timeest = 
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, New starttime = 62019
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, Task  start time: 17:13:39
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, Task  end time: 12:13:39
+11-Dec-16,17:13:39.399 7        3e92 atm_tasks::calculateActualTimes, Task 0 duration: 84704 s
+11-Dec-16,17:13:39.400 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 62019
+11-Dec-16,17:13:39.400 7        3e92 atm_tasks::calculateActualTimes, Timeest = 23:31:44
+11-Dec-16,17:13:39.400 7        3e92 atm_tasks::calculateActualTimes, New starttime = 146723
+11-Dec-16,17:13:39.400 7        3e92 atm_tasks::calculateActualTimes, Task 0 start time: 12:13:39
+11-Dec-16,17:13:39.400 7        3e92 atm_tasks::calculateActualTimes, Task 0 end time: 11:45:23
+11-Dec-16,17:13:39.401 7        3e92 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:13:39.401 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 146723
+11-Dec-16,17:13:39.401 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:13:39.401 7        3e92 atm_tasks::calculateActualTimes, New starttime = 147323
+11-Dec-16,17:13:39.401 7        3e92 atm_tasks::calculateActualTimes, Task 7 start time: 11:45:23
+11-Dec-16,17:13:39.402 7        3e92 atm_tasks::calculateActualTimes, Task 7 end time: 11:55:23
+11-Dec-16,17:13:39.402 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:13:39.402 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 336, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 336
+11-Dec-16,17:13:39.402 7        3e92 atm_tasks::insertTaskToSchedule,    start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.402 7        3e92 atm_tasks::insertTaskToSchedule,   0 start time = 1970-01-01 12:13:39
+11-Dec-16,17:13:39.403 7        3e92 atm_tasks::insertTaskToSchedule,   7 start time = 1970-01-02 11:45:23
+11-Dec-16,17:13:39.403 7        3e92 atm_tasks::insertTaskToSchedule, Inserting task 8
+11-Dec-16,17:13:39.403 7        3e92 ent_dependency::depend_parents, Getting tasks that task 8 depends on.
+11-Dec-16,17:13:39.404 7        3e92 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:13:39.404 7        3e92 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:13:39.404 7        3e92 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:13:39.404 7        3e92 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:13:39.405 7        3e92 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:13:39.405 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 228, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 228
+11-Dec-16,17:13:39.406 7        3e92 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:13:39.406 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:13:39.406 7        3e92 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:13:39.406 7        3e92 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:13:39.406 7        3e92 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:13:39.407 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.407 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.407 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.407 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.407 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.408 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.408 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.408 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.408 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.408 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.409 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.409 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.409 7        3e92 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:13:39
+11-Dec-16,17:13:39.409 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:13:39
+11-Dec-16,17:13:39.409 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 273, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 273
+11-Dec-16,17:13:39.410 7        3e92 atm_tasks::insertTaskToSchedule, Schedule End time with delay: 2011-12-16 18:13:39
+11-Dec-16,17:13:39.410 7        3e92 atm_tasks::insertTaskToSchedule, Task 8 added at time position 2011-12-16 18:13:39
+11-Dec-16,17:13:39.410 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.410 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.411 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.411 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.411 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.411 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.411 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.412 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.412 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.412 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.412 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.412 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080819
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 18:13:39
+11-Dec-16,17:13:39.413 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 19:13:39
+11-Dec-16,17:13:39.414 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.414 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080819
+11-Dec-16,17:13:39.414 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.414 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324083819
+11-Dec-16,17:13:39.414 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 19:13:39
+11-Dec-16,17:13:39.415 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 20:03:39
+11-Dec-16,17:13:39.415 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.415 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324083819
+11-Dec-16,17:13:39.415 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.415 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324085019
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 20:03:39
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 20:23:39
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324085019
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.416 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324087419
+11-Dec-16,17:13:39.417 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 20:23:39
+11-Dec-16,17:13:39.417 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 21:03:39
+11-Dec-16,17:13:39.417 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 101, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 101
+11-Dec-16,17:13:39.417 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 101, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 101
+11-Dec-16,17:13:39.418 7        3e92 atm_tasks::calculateActualTimes, Task  duration: -1324011600 s
+11-Dec-16,17:13:39.418 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.418 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 103, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 103
+11-Dec-16,17:13:39.418 7        3e92 atm_tasks::calculateActualTimes, Timeest = 
+11-Dec-16,17:13:39.419 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 104, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 104
+11-Dec-16,17:13:39.419 7        3e92 atm_tasks::calculateActualTimes, New starttime = 62019
+11-Dec-16,17:13:39.419 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 110, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 110
+11-Dec-16,17:13:39.419 7        3e92 atm_tasks::calculateActualTimes, Task  start time: 17:13:39
+11-Dec-16,17:13:39.419 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 111, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 111
+11-Dec-16,17:13:39.420 7        3e92 atm_tasks::calculateActualTimes, Task  end time: 12:13:39
+11-Dec-16,17:13:39.420 7        3e92 atm_tasks::calculateActualTimes, Task 0 duration: 84704 s
+11-Dec-16,17:13:39.420 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 62019
+11-Dec-16,17:13:39.420 7        3e92 atm_tasks::calculateActualTimes, Timeest = 23:31:44
+11-Dec-16,17:13:39.421 7        3e92 atm_tasks::calculateActualTimes, New starttime = 146723
+11-Dec-16,17:13:39.421 7        3e92 atm_tasks::calculateActualTimes, Task 0 start time: 12:13:39
+11-Dec-16,17:13:39.421 7        3e92 atm_tasks::calculateActualTimes, Task 0 end time: 11:45:23
+11-Dec-16,17:13:39.421 7        3e92 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:13:39.421 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 146723
+11-Dec-16,17:13:39.422 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:13:39.422 7        3e92 atm_tasks::calculateActualTimes, New starttime = 147323
+11-Dec-16,17:13:39.422 7        3e92 atm_tasks::calculateActualTimes, Task 7 start time: 11:45:23
+11-Dec-16,17:13:39.422 7        3e92 atm_tasks::calculateActualTimes, Task 7 end time: 11:55:23
+11-Dec-16,17:13:39.422 7        3e92 atm_tasks::calculateActualTimes, Task 0 duration: 85800 s
+11-Dec-16,17:13:39.423 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 147323
+11-Dec-16,17:13:39.423 7        3e92 atm_tasks::calculateActualTimes, Timeest = 23:50:00
+11-Dec-16,17:13:39.423 7        3e92 atm_tasks::calculateActualTimes, New starttime = 233123
+11-Dec-16,17:13:39.423 7        3e92 atm_tasks::calculateActualTimes, Task 0 start time: 11:55:23
+11-Dec-16,17:13:39.423 7        3e92 atm_tasks::calculateActualTimes, Task 0 end time: 11:45:23
+11-Dec-16,17:13:39.424 7        3e92 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:13:39.424 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 233123
+11-Dec-16,17:13:39.424 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:13:39.424 7        3e92 atm_tasks::calculateActualTimes, New starttime = 233723
+11-Dec-16,17:13:39.424 7        3e92 atm_tasks::calculateActualTimes, Task 8 start time: 11:45:23
+11-Dec-16,17:13:39.425 7        3e92 atm_tasks::calculateActualTimes, Task 8 end time: 11:55:23
+11-Dec-16,17:13:39.425 7        3e92 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:13:39.425 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 336, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 336
+11-Dec-16,17:13:39.425 7        3e92 atm_tasks::insertTaskToSchedule,    start time = 2011-12-16 17:13:39
+11-Dec-16,17:13:39.426 7        3e92 atm_tasks::insertTaskToSchedule,   0 start time = 1970-01-01 12:13:39
+11-Dec-16,17:13:39.426 7        3e92 atm_tasks::insertTaskToSchedule,   7 start time = 1970-01-02 11:45:23
+11-Dec-16,17:13:39.426 7        3e92 atm_tasks::insertTaskToSchedule,   0 start time = 1970-01-02 11:55:23
+11-Dec-16,17:13:39.426 7        3e92 atm_tasks::insertTaskToSchedule,   8 start time = 1970-01-03 11:45:23
+11-Dec-16,17:13:39.426 7        3e92 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324076019
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, Task 6 start time: 17:13:39
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, Task 6 end time: 17:53:39
+11-Dec-16,17:13:39.427 7        3e92 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:13:39.428 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324076019
+11-Dec-16,17:13:39.428 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.428 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324077219
+11-Dec-16,17:13:39.428 7        3e92 atm_tasks::calculateActualTimes, Task 5 start time: 17:53:39
+11-Dec-16,17:13:39.428 7        3e92 atm_tasks::calculateActualTimes, Task 5 end time: 18:13:39
+11-Dec-16,17:13:39.429 7        3e92 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:13:39.429 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324077219
+11-Dec-16,17:13:39.429 7        3e92 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:13:39.429 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324080819
+11-Dec-16,17:13:39.429 7        3e92 atm_tasks::calculateActualTimes, Task 3 start time: 18:13:39
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, Task 3 end time: 19:13:39
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324080819
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324083819
+11-Dec-16,17:13:39.430 7        3e92 atm_tasks::calculateActualTimes, Task 2 start time: 19:13:39
+11-Dec-16,17:13:39.431 7        3e92 atm_tasks::calculateActualTimes, Task 2 end time: 20:03:39
+11-Dec-16,17:13:39.431 7        3e92 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:13:39.431 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324083819
+11-Dec-16,17:13:39.431 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:13:39.431 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324085019
+11-Dec-16,17:13:39.432 7        3e92 atm_tasks::calculateActualTimes, Task 1 start time: 20:03:39
+11-Dec-16,17:13:39.432 7        3e92 atm_tasks::calculateActualTimes, Task 1 end time: 20:23:39
+11-Dec-16,17:13:39.432 7        3e92 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:13:39.432 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324085019
+11-Dec-16,17:13:39.432 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:13:39.433 7        3e92 atm_tasks::calculateActualTimes, New starttime = 1324087419
+11-Dec-16,17:13:39.433 7        3e92 atm_tasks::calculateActualTimes, Task 4 start time: 20:23:39
+11-Dec-16,17:13:39.433 7        3e92 atm_tasks::calculateActualTimes, Task 4 end time: 21:03:39
+11-Dec-16,17:13:39.433 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 101, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 101
+11-Dec-16,17:13:39.433 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 101, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 101
+11-Dec-16,17:13:39.434 7        3e92 atm_tasks::calculateActualTimes, Task  duration: -1324011600 s
+11-Dec-16,17:13:39.434 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 1324073619
+11-Dec-16,17:13:39.434 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 103, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 103
+11-Dec-16,17:13:39.434 7        3e92 atm_tasks::calculateActualTimes, Timeest = 
+11-Dec-16,17:13:39.435 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 104, Error: errstr: Undefined index: timest, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 104
+11-Dec-16,17:13:39.435 7        3e92 atm_tasks::calculateActualTimes, New starttime = 62019
+11-Dec-16,17:13:39.435 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 110, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 110
+11-Dec-16,17:13:39.435 7        3e92 atm_tasks::calculateActualTimes, Task  start time: 17:13:39
+11-Dec-16,17:13:39.435 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 111, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 111
+11-Dec-16,17:13:39.436 7        3e92 atm_tasks::calculateActualTimes, Task  end time: 12:13:39
+11-Dec-16,17:13:39.436 7        3e92 atm_tasks::calculateActualTimes, Task 0 duration: 84704 s
+11-Dec-16,17:13:39.436 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 62019
+11-Dec-16,17:13:39.436 7        3e92 atm_tasks::calculateActualTimes, Timeest = 23:31:44
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, New starttime = 146723
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, Task 0 start time: 12:13:39
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, Task 0 end time: 11:45:23
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 146723
+11-Dec-16,17:13:39.437 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:13:39.438 7        3e92 atm_tasks::calculateActualTimes, New starttime = 147323
+11-Dec-16,17:13:39.438 7        3e92 atm_tasks::calculateActualTimes, Task 7 start time: 11:45:23
+11-Dec-16,17:13:39.438 7        3e92 atm_tasks::calculateActualTimes, Task 7 end time: 11:55:23
+11-Dec-16,17:13:39.438 7        3e92 atm_tasks::calculateActualTimes, Task 0 duration: 85800 s
+11-Dec-16,17:13:39.438 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 147323
+11-Dec-16,17:13:39.439 7        3e92 atm_tasks::calculateActualTimes, Timeest = 23:50:00
+11-Dec-16,17:13:39.439 7        3e92 atm_tasks::calculateActualTimes, New starttime = 233123
+11-Dec-16,17:13:39.439 7        3e92 atm_tasks::calculateActualTimes, Task 0 start time: 11:55:23
+11-Dec-16,17:13:39.439 7        3e92 atm_tasks::calculateActualTimes, Task 0 end time: 11:45:23
+11-Dec-16,17:13:39.439 7        3e92 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:13:39.440 7        3e92 atm_tasks::calculateActualTimes, Old starttime = 233123
+11-Dec-16,17:13:39.440 7        3e92 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:13:39.440 7        3e92 atm_tasks::calculateActualTimes, New starttime = 233723
+11-Dec-16,17:13:39.440 7        3e92 atm_tasks::calculateActualTimes, Task 8 start time: 11:45:23
+11-Dec-16,17:13:39.440 7        3e92 atm_tasks::calculateActualTimes, Task 8 end time: 11:55:23
+11-Dec-16,17:13:39.442 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php line: 36, Error: errstr: Undefined index: id, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php, errline: 36
+11-Dec-16,17:13:39.442 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php line: 38, Error: errstr: Undefined index: name, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php, errline: 38
+11-Dec-16,17:13:39.442 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php line: 40, Error: errstr: Undefined index: owner_first_name, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php, errline: 40
+11-Dec-16,17:13:39.443 1 ****** 3e92 -- file: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php line: 41, Error: errstr: Undefined index: owner_last_name, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\sm\tpl\base\tpl_compiled\atm_tasks^%%2E^2EE^2EE8C566%%tasks.tpl.php, errline: 41
+11-Dec-16,17:18:21.149 5 **     2c07 sm_debug::write, Index file request: /tasks
+11-Dec-16,17:18:21.160 7        2c07 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-16,17:18:21.162 7        2c07 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:21.179 7        2c07 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-16,17:18:21.180 7        2c07 ent_task::getOpenList, Tasks found: 8
+11-Dec-16,17:18:21.180 7        2c07 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-16,17:18:21.181 7        2c07 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-16,17:18:21.181 7        2c07 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:18:21.181 7        2c07 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:18:21.181 7        2c07 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:21.182 7        2c07 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:21.182 7        2c07 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:18:21.182 7        2c07 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:18:21.182 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:18:21.182 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:18:21.183 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-16,17:18:21.183 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-16,17:18:21.184 7        2c07 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:18:21.184 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.184 7        2c07 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-16,17:18:21.185 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:18:21.185 7        2c07 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:21.185 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.186 7        2c07 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-16,17:18:21.186 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:18:21.186 7        2c07 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:21.187 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.187 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-16,17:18:21.187 7        2c07 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:21.188 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.188 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-16,17:18:21.188 7        2c07 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:18:21.189 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.189 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 7
+11-Dec-16,17:18:21.189 7        2c07 atm_tasks::adjustParentDeadline, Task ID: 8
+11-Dec-16,17:18:21.189 7        2c07 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-16,17:18:21.189 7        2c07 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-16,17:18:21.190 7        2c07 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:18:21.190 7        2c07 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:18:21.190 7        2c07 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:21.190 7        2c07 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:21.191 7        2c07 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:18:21.191 7        2c07 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:18:21.191 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:18:21.191 7        2c07 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:21.192 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.192 7        2c07 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:21.192 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.193 7        2c07 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:21.193 7        2c07 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:21.193 7        2c07 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:21.194 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.195 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:21.195 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.195 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.195 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.196 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.196 7        2c07 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 17:18:21
+11-Dec-16,17:18:21.196 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.196 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.196 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.197 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324075101
+11-Dec-16,17:18:21.197 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 17:18:21
+11-Dec-16,17:18:21.197 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 17:38:21
+11-Dec-16,17:18:21.197 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.197 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.198 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-16,17:18:21.198 7        2c07 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:21.198 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.198 7        2c07 ent_dependency::depend_children, Getting children of 2
+11-Dec-16,17:18:21.199 7        2c07 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:21.199 7        2c07 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:21.200 7        2c07 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:21.200 7        2c07 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:21.200 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.201 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:21.201 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.201 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.202 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.202 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.202 7        2c07 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-16 17:18:21
+11-Dec-16,17:18:21.202 7        2c07 atm_tasks::insertTaskToSchedule, Removing task 1
+11-Dec-16,17:18:21.202 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:18:21.203 7        2c07 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:21.203 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.203 7        2c07 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:21.204 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.204 7        2c07 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:21.204 7        2c07 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:21.205 7        2c07 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:21.205 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.206 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:21.206 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 0
+11-Dec-16,17:18:21.206 7        2c07 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:18:21.206 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.206 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.207 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.207 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.207 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076901
+11-Dec-16,17:18:21.207 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:21
+11-Dec-16,17:18:21.207 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:21
+11-Dec-16,17:18:21.208 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:08:21
+11-Dec-16,17:18:21.208 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 18:08:21
+11-Dec-16,17:18:21.208 7        2c07 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 18:08:21
+11-Dec-16,17:18:21.208 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.208 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.209 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.209 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076901
+11-Dec-16,17:18:21.209 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:21
+11-Dec-16,17:18:21.209 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:21
+11-Dec-16,17:18:21.209 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.210 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076901
+11-Dec-16,17:18:21.210 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.210 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078101
+11-Dec-16,17:18:21.210 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 18:08:21
+11-Dec-16,17:18:21.210 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 18:28:21
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:08:21
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.211 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.212 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076901
+11-Dec-16,17:18:21.212 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:21
+11-Dec-16,17:18:21.212 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:21
+11-Dec-16,17:18:21.212 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.212 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076901
+11-Dec-16,17:18:21.213 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.213 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078101
+11-Dec-16,17:18:21.213 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 18:08:21
+11-Dec-16,17:18:21.213 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 18:28:21
+11-Dec-16,17:18:21.213 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.214 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.214 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:08:21
+11-Dec-16,17:18:21.214 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-16,17:18:21.214 7        2c07 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-16,17:18:21.215 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.215 7        2c07 ent_dependency::depend_children, Getting children of 3
+11-Dec-16,17:18:21.215 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.216 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:21.216 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.216 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.216 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.217 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.217 7        2c07 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-16 17:18:21
+11-Dec-16,17:18:21.217 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.217 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.217 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.218 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.218 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:21
+11-Dec-16,17:18:21.218 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:21
+11-Dec-16,17:18:21.218 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.218 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.219 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.219 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324080501
+11-Dec-16,17:18:21.219 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:21
+11-Dec-16,17:18:21.219 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:21
+11-Dec-16,17:18:21.219 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.220 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324080501
+11-Dec-16,17:18:21.220 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.220 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081701
+11-Dec-16,17:18:21.220 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:21
+11-Dec-16,17:18:21.220 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:21
+11-Dec-16,17:18:21.221 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.221 7        2c07 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.221 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:18:21
+11-Dec-16,17:18:21.221 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:08:21
+11-Dec-16,17:18:21.221 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-16,17:18:21.222 7        2c07 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:18:21.222 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.222 7        2c07 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:21.223 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.223 7        2c07 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:21.223 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.224 7        2c07 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:21.224 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.224 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:21.225 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 2
+11-Dec-16,17:18:21.225 7        2c07 atm_tasks::insertTaskToSchedule, Task 3 skipped
+11-Dec-16,17:18:21.225 7        2c07 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:18:21.225 7        2c07 atm_tasks::insertTaskToSchedule, Task 1 skipped
+11-Dec-16,17:18:21.225 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:21
+11-Dec-16,17:18:21.226 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:21
+11-Dec-16,17:18:21.227 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.227 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.227 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.227 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324080501
+11-Dec-16,17:18:21.227 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:21
+11-Dec-16,17:18:21.228 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:21
+11-Dec-16,17:18:21.228 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.228 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324080501
+11-Dec-16,17:18:21.228 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.228 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081701
+11-Dec-16,17:18:21.229 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:21
+11-Dec-16,17:18:21.229 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:21
+11-Dec-16,17:18:21.229 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 19:28:21
+11-Dec-16,17:18:21.229 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 19:28:21
+11-Dec-16,17:18:21.229 7        2c07 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-16 19:28:21
+11-Dec-16,17:18:21.230 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.230 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.230 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.230 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.230 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:21
+11-Dec-16,17:18:21.231 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:21
+11-Dec-16,17:18:21.231 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.231 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.231 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.231 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324080501
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:21
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:21
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324080501
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.232 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081701
+11-Dec-16,17:18:21.233 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:21
+11-Dec-16,17:18:21.233 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:21
+11-Dec-16,17:18:21.233 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.233 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081701
+11-Dec-16,17:18:21.233 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.234 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324084101
+11-Dec-16,17:18:21.234 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 19:28:21
+11-Dec-16,17:18:21.234 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 20:08:21
+11-Dec-16,17:18:21.234 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.234 7        2c07 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.235 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:18:21
+11-Dec-16,17:18:21.235 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:08:21
+11-Dec-16,17:18:21.235 7        2c07 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:28:21
+11-Dec-16,17:18:21.235 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-16,17:18:21.235 7        2c07 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:21.236 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.236 7        2c07 ent_dependency::depend_children, Getting children of 5
+11-Dec-16,17:18:21.236 7        2c07 ent_dependency::depend_children, Tasks found: 2
+11-Dec-16,17:18:21.237 7        2c07 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:18:21.237 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.237 7        2c07 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:18:21.238 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.238 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:21.238 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.239 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.239 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.239 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.239 7        2c07 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-16 17:18:21
+11-Dec-16,17:18:21.240 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.240 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.240 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.240 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324075101
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:18:21
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 17:38:21
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324075101
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.241 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078701
+11-Dec-16,17:18:21.242 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 17:38:21
+11-Dec-16,17:18:21.242 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 18:38:21
+11-Dec-16,17:18:21.242 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.242 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324078701
+11-Dec-16,17:18:21.242 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.243 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081701
+11-Dec-16,17:18:21.243 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 18:38:21
+11-Dec-16,17:18:21.243 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 19:28:21
+11-Dec-16,17:18:21.243 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.243 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081701
+11-Dec-16,17:18:21.244 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.244 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324082901
+11-Dec-16,17:18:21.244 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 19:28:21
+11-Dec-16,17:18:21.244 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 19:48:21
+11-Dec-16,17:18:21.244 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324082901
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324085301
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 19:48:21
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 20:28:21
+11-Dec-16,17:18:21.245 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.246 7        2c07 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.246 7        2c07 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:38:21
+11-Dec-16,17:18:21.246 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:38:21
+11-Dec-16,17:18:21.246 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:28:21
+11-Dec-16,17:18:21.246 7        2c07 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:48:21
+11-Dec-16,17:18:21.247 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-16,17:18:21.247 7        2c07 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:18:21.247 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.248 7        2c07 ent_dependency::depend_children, Getting children of 6
+11-Dec-16,17:18:21.248 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.248 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:21.249 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.249 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.249 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.249 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.249 7        2c07 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-16 17:18:21
+11-Dec-16,17:18:21.250 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.250 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.250 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.250 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.251 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.251 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.251 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.251 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.251 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.252 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.252 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.252 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.252 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.252 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.253 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.253 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081101
+11-Dec-16,17:18:21.253 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:21
+11-Dec-16,17:18:21.253 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:21
+11-Dec-16,17:18:21.253 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.254 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081101
+11-Dec-16,17:18:21.254 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.254 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324084101
+11-Dec-16,17:18:21.254 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:21
+11-Dec-16,17:18:21.254 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:21
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324084101
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324085301
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:21
+11-Dec-16,17:18:21.255 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:21
+11-Dec-16,17:18:21.256 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.256 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324085301
+11-Dec-16,17:18:21.256 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.256 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324087701
+11-Dec-16,17:18:21.256 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:21
+11-Dec-16,17:18:21.257 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:21
+11-Dec-16,17:18:21.257 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:21.257 7        2c07 atm_tasks::insertTaskToSchedule,   6 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.257 7        2c07 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:58:21
+11-Dec-16,17:18:21.257 7        2c07 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 18:18:21
+11-Dec-16,17:18:21.258 7        2c07 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 19:18:21
+11-Dec-16,17:18:21.258 7        2c07 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 20:08:21
+11-Dec-16,17:18:21.258 7        2c07 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 20:28:21
+11-Dec-16,17:18:21.258 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 7
+11-Dec-16,17:18:21.258 7        2c07 ent_dependency::depend_parents, Getting tasks that task 7 depends on.
+11-Dec-16,17:18:21.259 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.259 7        2c07 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:21.260 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.260 7        2c07 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:18:21.260 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.261 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:21.261 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:18:21.261 7        2c07 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:18:21.261 7        2c07 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:18:21.261 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.262 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.262 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.262 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.262 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.262 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.263 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.264 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.264 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:18:21
+11-Dec-16,17:18:21.264 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.264 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time with delay: 2011-12-16 18:18:21
+11-Dec-16,17:18:21.264 7        2c07 atm_tasks::insertTaskToSchedule, Task 7 added at time position 2011-12-16 18:18:21
+11-Dec-16,17:18:21.265 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.265 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.265 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.265 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.266 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.266 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.266 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.266 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.266 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.267 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.268 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081101
+11-Dec-16,17:18:21.268 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:21
+11-Dec-16,17:18:21.268 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:21
+11-Dec-16,17:18:21.268 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.268 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081101
+11-Dec-16,17:18:21.269 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.269 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324084101
+11-Dec-16,17:18:21.269 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:21
+11-Dec-16,17:18:21.269 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:21
+11-Dec-16,17:18:21.269 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.270 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324084101
+11-Dec-16,17:18:21.270 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.270 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324085301
+11-Dec-16,17:18:21.270 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:21
+11-Dec-16,17:18:21.270 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:21
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324085301
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324087701
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:21
+11-Dec-16,17:18:21.271 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:21
+11-Dec-16,17:18:21.272 7        2c07 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:21.272 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.272 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:21.272 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.272 7        2c07 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:21
+11-Dec-16,17:18:21.273 7        2c07 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:21
+11-Dec-16,17:18:21.273 7        2c07 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:21.273 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.273 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:21.273 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078101
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::calculateActualTimes, Task 7 start time: 18:18:21
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::calculateActualTimes, Task 7 end time: 18:28:21
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::insertTaskToSchedule,   0 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::insertTaskToSchedule,   7 start time = 2011-12-16 18:18:21
+11-Dec-16,17:18:21.274 7        2c07 atm_tasks::insertTaskToSchedule, Inserting task 8
+11-Dec-16,17:18:21.275 7        2c07 ent_dependency::depend_parents, Getting tasks that task 8 depends on.
+11-Dec-16,17:18:21.275 7        2c07 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:21.275 7        2c07 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:21.276 7        2c07 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:21.276 7        2c07 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:18:21.276 7        2c07 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:21.277 7        2c07 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:21.277 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:18:21.277 7        2c07 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:18:21.277 7        2c07 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:18:21.278 7        2c07 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:21.278 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.278 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.278 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.278 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.279 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.279 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.279 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.279 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.279 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.280 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.280 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.280 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.280 7        2c07 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:18:21
+11-Dec-16,17:18:21.280 7        2c07 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:21
+11-Dec-16,17:18:21.281 7        2c07 atm_tasks::insertTaskToSchedule, Task 8 added at time position 2011-12-16 18:18:21
+11-Dec-16,17:18:21.281 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.281 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.281 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.282 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.283 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.283 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.283 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.283 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.283 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.284 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.284 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081101
+11-Dec-16,17:18:21.284 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:21
+11-Dec-16,17:18:21.284 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:21
+11-Dec-16,17:18:21.284 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.285 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081101
+11-Dec-16,17:18:21.285 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.285 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324084101
+11-Dec-16,17:18:21.285 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:21
+11-Dec-16,17:18:21.285 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:21
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324084101
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324085301
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:21
+11-Dec-16,17:18:21.286 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:21
+11-Dec-16,17:18:21.287 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.287 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324085301
+11-Dec-16,17:18:21.287 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.287 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324087701
+11-Dec-16,17:18:21.287 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:21
+11-Dec-16,17:18:21.288 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:21
+11-Dec-16,17:18:21.288 7        2c07 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:21.288 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.288 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:21.288 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.289 7        2c07 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:21
+11-Dec-16,17:18:21.289 7        2c07 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:21
+11-Dec-16,17:18:21.289 7        2c07 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:18:21.289 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.289 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078101
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, Task 8 start time: 18:18:21
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, Task 8 end time: 18:28:21
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324078101
+11-Dec-16,17:18:21.290 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:21.291 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078701
+11-Dec-16,17:18:21.291 7        2c07 atm_tasks::calculateActualTimes, Task 7 start time: 18:28:21
+11-Dec-16,17:18:21.291 7        2c07 atm_tasks::calculateActualTimes, Task 7 end time: 18:38:21
+11-Dec-16,17:18:21.291 7        2c07 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:18:21.291 7        2c07 atm_tasks::insertTaskToSchedule,   0 start time = 2011-12-16 17:18:21
+11-Dec-16,17:18:21.292 7        2c07 atm_tasks::insertTaskToSchedule,   8 start time = 2011-12-16 18:18:21
+11-Dec-16,17:18:21.292 7        2c07 atm_tasks::insertTaskToSchedule,   7 start time = 2011-12-16 18:28:21
+11-Dec-16,17:18:21.292 7        2c07 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:21.292 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.292 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324076301
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:21
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:21
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324076301
+11-Dec-16,17:18:21.293 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.294 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.294 7        2c07 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:21
+11-Dec-16,17:18:21.294 7        2c07 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:21
+11-Dec-16,17:18:21.294 7        2c07 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:21.294 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.295 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:21.295 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324081101
+11-Dec-16,17:18:21.295 7        2c07 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:21
+11-Dec-16,17:18:21.295 7        2c07 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:21
+11-Dec-16,17:18:21.295 7        2c07 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:21.296 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324081101
+11-Dec-16,17:18:21.296 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:21.296 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324084101
+11-Dec-16,17:18:21.296 7        2c07 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:21
+11-Dec-16,17:18:21.296 7        2c07 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:21
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324084101
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324085301
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:21
+11-Dec-16,17:18:21.297 7        2c07 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:21
+11-Dec-16,17:18:21.298 7        2c07 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:21.298 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324085301
+11-Dec-16,17:18:21.298 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:21.298 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324087701
+11-Dec-16,17:18:21.298 7        2c07 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:21
+11-Dec-16,17:18:21.299 7        2c07 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:21
+11-Dec-16,17:18:21.299 7        2c07 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:21.299 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324073901
+11-Dec-16,17:18:21.299 7        2c07 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:21.299 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324077501
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:21
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:21
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324077501
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:21.300 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078101
+11-Dec-16,17:18:21.301 7        2c07 atm_tasks::calculateActualTimes, Task 8 start time: 18:18:21
+11-Dec-16,17:18:21.301 7        2c07 atm_tasks::calculateActualTimes, Task 8 end time: 18:28:21
+11-Dec-16,17:18:21.301 7        2c07 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:21.301 7        2c07 atm_tasks::calculateActualTimes, Old starttime = 1324078101
+11-Dec-16,17:18:21.301 7        2c07 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:21.302 7        2c07 atm_tasks::calculateActualTimes, New starttime = 1324078701
+11-Dec-16,17:18:21.302 7        2c07 atm_tasks::calculateActualTimes, Task 7 start time: 18:28:21
+11-Dec-16,17:18:21.302 7        2c07 atm_tasks::calculateActualTimes, Task 7 end time: 18:38:21
+11-Dec-16,17:18:28.690 5 **     fd23 sm_debug::write, Index file request: /login/doLogout
+11-Dec-16,17:18:28.698 7        fd23 sm_atm::__construct, Starting ATM: atm_login, ACP: doLogout
+11-Dec-16,17:18:28.699 7        fd23 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:28.715 7        fd23 atm_login::acp_doLogout, user a is going to logout now
+11-Dec-16,17:18:28.717 7        fd23 ent_session::end, Closing session 5
+11-Dec-16,17:18:28.719 7        fd23 ent_session::end, Closing session for user 2
+11-Dec-16,17:18:28.720 7        fd23 atm_login::acp_doLogout, logged out
+11-Dec-16,17:18:28.727 5 **     c84b sm_debug::write, Index file request: /login/
+11-Dec-16,17:18:28.732 7        c84b sm_atm::__construct, Starting ATM: atm_login, ACP: 
+11-Dec-16,17:18:28.732 7        c84b sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:28.736 7        c84b atm_login::acp_showLogin, Loading configuration for login page
+11-Dec-16,17:18:33.635 5 **     8bd2 sm_debug::write, Index file request: /login/doLogin?login=admin&password=7b21848ac9af35be0ddb2d6b9fc3851934db8420&rtype=ajax
+11-Dec-16,17:18:33.640 7        8bd2 sm_atm::__construct, Starting ATM: atm_login, ACP: doLogin
+11-Dec-16,17:18:33.641 7        8bd2 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:33.647 7        8bd2 sm_atm::__construct, Running AJAX request
+11-Dec-16,17:18:33.647 7        8bd2 atm_login::doLogin, doLogin: Login: admin
+11-Dec-16,17:18:33.650 7        8bd2 atm_login::doLogin, Login: Checking password
+11-Dec-16,17:18:33.651 7        8bd2 atm_login::doLogin, debug 1
+11-Dec-16,17:18:33.651 7        8bd2 atm_login::doLogin, debug 2
+11-Dec-16,17:18:33.651 5 **     fc4b sm_debug::write, Index file request: /
+11-Dec-16,17:18:33.656 7        fc4b sm_atm::__construct, Starting ATM: atm_default, ACP: 
+11-Dec-16,17:18:33.657 7        fc4b sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:34.970 5 **     9d45 sm_debug::write, Index file request: /tasks
+11-Dec-16,17:18:34.981 7        9d45 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-16,17:18:34.982 7        9d45 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-16,17:18:34.991 7        9d45 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-16,17:18:34.992 7        9d45 ent_task::getOpenList, Tasks found: 8
+11-Dec-16,17:18:34.993 7        9d45 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-16,17:18:34.993 7        9d45 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-16,17:18:34.994 7        9d45 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:18:34.994 7        9d45 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:18:34.994 7        9d45 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:34.995 7        9d45 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:34.995 7        9d45 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:18:34.995 7        9d45 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:18:34.995 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:18:34.995 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:18:34.996 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-16,17:18:34.996 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-16,17:18:34.996 7        9d45 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:18:34.997 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:34.997 7        9d45 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-16,17:18:34.998 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-16,17:18:34.998 7        9d45 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:34.998 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:34.999 7        9d45 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-16,17:18:34.999 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-16,17:18:34.999 7        9d45 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:35.999 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.000 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-16,17:18:35.000 7        9d45 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:35.000 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.001 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-16,17:18:35.001 7        9d45 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:18:35.001 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.001 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 7
+11-Dec-16,17:18:35.002 7        9d45 atm_tasks::adjustParentDeadline, Task ID: 8
+11-Dec-16,17:18:35.002 7        9d45 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-16,17:18:35.002 7        9d45 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-16,17:18:35.002 7        9d45 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-16,17:18:35.002 7        9d45 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-16,17:18:35.003 7        9d45 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:35.003 7        9d45 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-16 20:00:00
+11-Dec-16,17:18:35.003 7        9d45 atm_tasks::outputdebugtasks, Name: Task 7, Calculated deadline: 
+11-Dec-16,17:18:35.003 7        9d45 atm_tasks::outputdebugtasks, Name: Task 8, Calculated deadline: 
+11-Dec-16,17:18:35.003 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:18:35.004 7        9d45 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:35.004 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.004 7        9d45 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:35.005 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.005 7        9d45 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:35.005 7        9d45 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:35.006 7        9d45 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:35.006 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.007 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:35.007 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.007 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.007 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.008 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.008 7        9d45 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 17:18:35
+11-Dec-16,17:18:35.008 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.008 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.008 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.009 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324075115
+11-Dec-16,17:18:35.009 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 17:18:35
+11-Dec-16,17:18:35.009 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 17:38:35
+11-Dec-16,17:18:35.009 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.009 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.010 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-16,17:18:35.010 7        9d45 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:35.010 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.011 7        9d45 ent_dependency::depend_children, Getting children of 2
+11-Dec-16,17:18:35.011 7        9d45 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:35.011 7        9d45 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:35.012 7        9d45 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:35.012 7        9d45 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:35.012 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.013 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:35.013 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.013 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.014 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.014 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.014 7        9d45 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-16 17:18:35
+11-Dec-16,17:18:35.014 7        9d45 atm_tasks::insertTaskToSchedule, Removing task 1
+11-Dec-16,17:18:35.014 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-16,17:18:35.015 7        9d45 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:35.015 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.015 7        9d45 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:35.016 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.016 7        9d45 ent_dependency::depend_children, Getting children of 1
+11-Dec-16,17:18:35.016 7        9d45 ent_dependency::depend_children, Tasks found: 1
+11-Dec-16,17:18:35.017 7        9d45 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:35.017 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.017 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:35.018 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 0
+11-Dec-16,17:18:35.018 7        9d45 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:18:35.018 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.018 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.018 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.019 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.019 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076915
+11-Dec-16,17:18:35.019 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:35
+11-Dec-16,17:18:35.019 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:35
+11-Dec-16,17:18:35.019 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:08:35
+11-Dec-16,17:18:35.020 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 18:08:35
+11-Dec-16,17:18:35.020 7        9d45 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-16 18:08:35
+11-Dec-16,17:18:35.020 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.020 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.020 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.021 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076915
+11-Dec-16,17:18:35.021 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:35
+11-Dec-16,17:18:35.021 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:35
+11-Dec-16,17:18:35.021 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.021 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076915
+11-Dec-16,17:18:35.022 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.022 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078115
+11-Dec-16,17:18:35.022 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 18:08:35
+11-Dec-16,17:18:35.022 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 18:28:35
+11-Dec-16,17:18:35.022 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.023 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.023 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:08:35
+11-Dec-16,17:18:35.023 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.023 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.023 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.024 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076915
+11-Dec-16,17:18:35.024 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 17:18:35
+11-Dec-16,17:18:35.024 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 18:08:35
+11-Dec-16,17:18:35.024 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.024 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076915
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078115
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 18:08:35
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 18:28:35
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.025 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.026 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 18:08:35
+11-Dec-16,17:18:35.026 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-16,17:18:35.026 7        9d45 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-16,17:18:35.027 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.027 7        9d45 ent_dependency::depend_children, Getting children of 3
+11-Dec-16,17:18:35.027 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.028 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:35.028 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.028 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.028 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.028 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.029 7        9d45 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-16 17:18:35
+11-Dec-16,17:18:35.029 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.029 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.029 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.029 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.030 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:35
+11-Dec-16,17:18:35.030 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:35
+11-Dec-16,17:18:35.030 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.030 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.030 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.031 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324080515
+11-Dec-16,17:18:35.031 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:35
+11-Dec-16,17:18:35.031 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:35
+11-Dec-16,17:18:35.031 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.031 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324080515
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081715
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:35
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:35
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.032 7        9d45 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.033 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:18:35
+11-Dec-16,17:18:35.033 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:08:35
+11-Dec-16,17:18:35.033 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-16,17:18:35.033 7        9d45 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-16,17:18:35.034 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.034 7        9d45 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-16,17:18:35.034 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.035 7        9d45 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-16,17:18:35.035 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.035 7        9d45 ent_dependency::depend_children, Getting children of 4
+11-Dec-16,17:18:35.036 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.036 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:35.037 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 2
+11-Dec-16,17:18:35.037 7        9d45 atm_tasks::insertTaskToSchedule, Task 3 skipped
+11-Dec-16,17:18:35.037 7        9d45 atm_tasks::insertTaskToSchedule, Task 2 skipped
+11-Dec-16,17:18:35.037 7        9d45 atm_tasks::insertTaskToSchedule, Task 1 skipped
+11-Dec-16,17:18:35.037 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.038 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.038 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.038 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.038 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.038 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:35
+11-Dec-16,17:18:35.039 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:35
+11-Dec-16,17:18:35.039 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.039 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.039 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.039 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324080515
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:35
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:35
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324080515
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.040 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081715
+11-Dec-16,17:18:35.041 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:35
+11-Dec-16,17:18:35.041 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:35
+11-Dec-16,17:18:35.041 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 19:28:35
+11-Dec-16,17:18:35.041 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 19:28:35
+11-Dec-16,17:18:35.041 7        9d45 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-16 19:28:35
+11-Dec-16,17:18:35.042 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.042 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.042 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.042 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.042 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 17:18:35
+11-Dec-16,17:18:35.043 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 18:18:35
+11-Dec-16,17:18:35.043 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.043 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.043 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.043 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324080515
+11-Dec-16,17:18:35.044 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 18:18:35
+11-Dec-16,17:18:35.044 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 19:08:35
+11-Dec-16,17:18:35.044 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.044 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324080515
+11-Dec-16,17:18:35.044 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081715
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 19:08:35
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 19:28:35
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081715
+11-Dec-16,17:18:35.045 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.046 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324084115
+11-Dec-16,17:18:35.046 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 19:28:35
+11-Dec-16,17:18:35.046 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 20:08:35
+11-Dec-16,17:18:35.046 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.046 7        9d45 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.047 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:18:35
+11-Dec-16,17:18:35.047 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:08:35
+11-Dec-16,17:18:35.047 7        9d45 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:28:35
+11-Dec-16,17:18:35.047 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-16,17:18:35.047 7        9d45 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:35.048 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.048 7        9d45 ent_dependency::depend_children, Getting children of 5
+11-Dec-16,17:18:35.048 7        9d45 ent_dependency::depend_children, Tasks found: 2
+11-Dec-16,17:18:35.049 7        9d45 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:18:35.049 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.049 7        9d45 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:18:35.050 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.050 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:35.050 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.051 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.051 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.051 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.051 7        9d45 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-16 17:18:35
+11-Dec-16,17:18:35.052 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.052 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.052 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.052 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324075115
+11-Dec-16,17:18:35.052 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:18:35
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 17:38:35
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324075115
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078715
+11-Dec-16,17:18:35.053 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 17:38:35
+11-Dec-16,17:18:35.054 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 18:38:35
+11-Dec-16,17:18:35.054 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.054 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324078715
+11-Dec-16,17:18:35.054 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.054 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081715
+11-Dec-16,17:18:35.055 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 18:38:35
+11-Dec-16,17:18:35.055 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 19:28:35
+11-Dec-16,17:18:35.055 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.055 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081715
+11-Dec-16,17:18:35.055 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.056 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324082915
+11-Dec-16,17:18:35.056 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 19:28:35
+11-Dec-16,17:18:35.056 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 19:48:35
+11-Dec-16,17:18:35.056 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.056 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324082915
+11-Dec-16,17:18:35.057 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.057 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324085315
+11-Dec-16,17:18:35.057 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 19:48:35
+11-Dec-16,17:18:35.057 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 20:28:35
+11-Dec-16,17:18:35.057 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 17:38:35
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 18:38:35
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 19:28:35
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 19:48:35
+11-Dec-16,17:18:35.058 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-16,17:18:35.059 7        9d45 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-16,17:18:35.059 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.059 7        9d45 ent_dependency::depend_children, Getting children of 6
+11-Dec-16,17:18:35.060 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.060 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 0
+11-Dec-16,17:18:35.060 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.061 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.061 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.061 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.061 7        9d45 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-16 17:18:35
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.062 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.063 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.063 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.063 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.063 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.063 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.064 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.064 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.064 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.064 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.064 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081115
+11-Dec-16,17:18:35.065 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:35
+11-Dec-16,17:18:35.065 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:35
+11-Dec-16,17:18:35.065 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.065 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081115
+11-Dec-16,17:18:35.065 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324084115
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:35
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:35
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324084115
+11-Dec-16,17:18:35.066 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.067 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324085315
+11-Dec-16,17:18:35.067 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:35
+11-Dec-16,17:18:35.067 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:35
+11-Dec-16,17:18:35.068 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.068 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324085315
+11-Dec-16,17:18:35.068 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.068 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324087715
+11-Dec-16,17:18:35.068 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:35
+11-Dec-16,17:18:35.069 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:35
+11-Dec-16,17:18:35.069 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 1:
+11-Dec-16,17:18:35.069 7        9d45 atm_tasks::insertTaskToSchedule,   6 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.069 7        9d45 atm_tasks::insertTaskToSchedule,   5 start time = 2011-12-16 17:58:35
+11-Dec-16,17:18:35.069 7        9d45 atm_tasks::insertTaskToSchedule,   3 start time = 2011-12-16 18:18:35
+11-Dec-16,17:18:35.070 7        9d45 atm_tasks::insertTaskToSchedule,   2 start time = 2011-12-16 19:18:35
+11-Dec-16,17:18:35.070 7        9d45 atm_tasks::insertTaskToSchedule,   1 start time = 2011-12-16 20:08:35
+11-Dec-16,17:18:35.070 7        9d45 atm_tasks::insertTaskToSchedule,   4 start time = 2011-12-16 20:28:35
+11-Dec-16,17:18:35.070 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 7
+11-Dec-16,17:18:35.070 7        9d45 ent_dependency::depend_parents, Getting tasks that task 7 depends on.
+11-Dec-16,17:18:35.071 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.071 7        9d45 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:35.072 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.072 7        9d45 ent_dependency::depend_children, Getting children of 7
+11-Dec-16,17:18:35.072 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.073 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:35.073 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:18:35.073 7        9d45 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:18:35.073 7        9d45 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:18:35.074 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.074 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.074 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.074 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.074 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.075 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.075 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.075 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.075 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.076 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.076 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.076 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.076 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.076 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:18:35
+11-Dec-16,17:18:35.077 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.077 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time with delay: 2011-12-16 18:18:35
+11-Dec-16,17:18:35.077 7        9d45 atm_tasks::insertTaskToSchedule, Task 7 added at time position 2011-12-16 18:18:35
+11-Dec-16,17:18:35.077 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.078 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.078 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.078 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.078 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.078 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.079 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.079 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.079 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.079 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.079 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.080 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.080 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.080 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.080 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.080 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081115
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:35
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:35
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081115
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.081 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324084115
+11-Dec-16,17:18:35.082 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:35
+11-Dec-16,17:18:35.082 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:35
+11-Dec-16,17:18:35.082 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.082 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324084115
+11-Dec-16,17:18:35.082 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.083 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324085315
+11-Dec-16,17:18:35.083 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:35
+11-Dec-16,17:18:35.083 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:35
+11-Dec-16,17:18:35.083 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.084 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324085315
+11-Dec-16,17:18:35.084 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.084 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324087715
+11-Dec-16,17:18:35.084 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:35
+11-Dec-16,17:18:35.084 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:35
+11-Dec-16,17:18:35.085 7        9d45 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:35.085 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.085 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:35.085 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.085 7        9d45 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:35
+11-Dec-16,17:18:35.086 7        9d45 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:35
+11-Dec-16,17:18:35.086 7        9d45 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:35.086 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.086 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:35.086 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078115
+11-Dec-16,17:18:35.087 7        9d45 atm_tasks::calculateActualTimes, Task 7 start time: 18:18:35
+11-Dec-16,17:18:35.087 7        9d45 atm_tasks::calculateActualTimes, Task 7 end time: 18:28:35
+11-Dec-16,17:18:35.087 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:18:35.087 7        9d45 atm_tasks::insertTaskToSchedule,   0 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.087 7        9d45 atm_tasks::insertTaskToSchedule,   7 start time = 2011-12-16 18:18:35
+11-Dec-16,17:18:35.088 7        9d45 atm_tasks::insertTaskToSchedule, Inserting task 8
+11-Dec-16,17:18:35.088 7        9d45 ent_dependency::depend_parents, Getting tasks that task 8 depends on.
+11-Dec-16,17:18:35.088 7        9d45 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-16,17:18:35.089 7        9d45 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-16,17:18:35.089 7        9d45 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-16,17:18:35.089 7        9d45 ent_dependency::depend_children, Getting children of 8
+11-Dec-16,17:18:35.090 7        9d45 ent_dependency::depend_children, Tasks found: 0
+11-Dec-16,17:18:35.090 7        9d45 atm_tasks::insertTaskToSchedule, Skipping all parents. Parent count: 1
+11-Dec-16,17:18:35.091 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = 1
+11-Dec-16,17:18:35.091 7        9d45 atm_tasks::insertTaskToSchedule, Task 6 skipped
+11-Dec-16,17:18:35.091 7        9d45 atm_tasks::insertTaskToSchedule, Task 5 skipped
+11-Dec-16,17:18:35.091 7        9d45 atm_tasks::insertTaskToSchedule, rightMostParentIdx = -1
+11-Dec-16,17:18:35.091 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.092 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.092 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.092 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.092 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.093 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.094 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.094 7        9d45 atm_tasks::insertTaskToSchedule, End of all parents: 2011-12-16 18:18:35
+11-Dec-16,17:18:35.094 7        9d45 atm_tasks::insertTaskToSchedule, Schedule End time: 2011-12-16 17:18:35
+11-Dec-16,17:18:35.094 7        9d45 atm_tasks::insertTaskToSchedule, Task 8 added at time position 2011-12-16 18:18:35
+11-Dec-16,17:18:35.095 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.095 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.095 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.095 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.095 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.096 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.096 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.096 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.096 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.096 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.097 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081115
+11-Dec-16,17:18:35.098 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:35
+11-Dec-16,17:18:35.098 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:35
+11-Dec-16,17:18:35.098 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.098 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081115
+11-Dec-16,17:18:35.098 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.099 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324084115
+11-Dec-16,17:18:35.099 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:35
+11-Dec-16,17:18:35.099 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:35
+11-Dec-16,17:18:35.099 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.100 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324084115
+11-Dec-16,17:18:35.100 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.100 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324085315
+11-Dec-16,17:18:35.100 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:35
+11-Dec-16,17:18:35.100 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:35
+11-Dec-16,17:18:35.101 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.101 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324085315
+11-Dec-16,17:18:35.101 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.101 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324087715
+11-Dec-16,17:18:35.101 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:35
+11-Dec-16,17:18:35.102 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:35
+11-Dec-16,17:18:35.102 7        9d45 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:35.102 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.102 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:35.102 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.103 7        9d45 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:35
+11-Dec-16,17:18:35.103 7        9d45 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:35
+11-Dec-16,17:18:35.103 7        9d45 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:18:35.103 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.103 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:35.104 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078115
+11-Dec-16,17:18:35.104 7        9d45 atm_tasks::calculateActualTimes, Task 8 start time: 18:18:35
+11-Dec-16,17:18:35.104 7        9d45 atm_tasks::calculateActualTimes, Task 8 end time: 18:28:35
+11-Dec-16,17:18:35.104 7        9d45 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:35.104 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324078115
+11-Dec-16,17:18:35.105 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:35.105 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078715
+11-Dec-16,17:18:35.105 7        9d45 atm_tasks::calculateActualTimes, Task 7 start time: 18:28:35
+11-Dec-16,17:18:35.105 7        9d45 atm_tasks::calculateActualTimes, Task 7 end time: 18:38:35
+11-Dec-16,17:18:35.105 7        9d45 atm_tasks::insertTaskToSchedule, Current schedule for user 2:
+11-Dec-16,17:18:35.106 7        9d45 atm_tasks::insertTaskToSchedule,   0 start time = 2011-12-16 17:18:35
+11-Dec-16,17:18:35.106 7        9d45 atm_tasks::insertTaskToSchedule,   8 start time = 2011-12-16 18:18:35
+11-Dec-16,17:18:35.106 7        9d45 atm_tasks::insertTaskToSchedule,   7 start time = 2011-12-16 18:28:35
+11-Dec-16,17:18:35.106 7        9d45 atm_tasks::calculateActualTimes, Task 6 duration: 2400 s
+11-Dec-16,17:18:35.106 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.107 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.107 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324076315
+11-Dec-16,17:18:35.107 7        9d45 atm_tasks::calculateActualTimes, Task 6 start time: 17:18:35
+11-Dec-16,17:18:35.107 7        9d45 atm_tasks::calculateActualTimes, Task 6 end time: 17:58:35
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, Task 5 duration: 1200 s
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324076315
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, Task 5 start time: 17:58:35
+11-Dec-16,17:18:35.108 7        9d45 atm_tasks::calculateActualTimes, Task 5 end time: 18:18:35
+11-Dec-16,17:18:35.109 7        9d45 atm_tasks::calculateActualTimes, Task 3 duration: 3600 s
+11-Dec-16,17:18:35.109 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.109 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00
+11-Dec-16,17:18:35.109 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324081115
+11-Dec-16,17:18:35.109 7        9d45 atm_tasks::calculateActualTimes, Task 3 start time: 18:18:35
+11-Dec-16,17:18:35.110 7        9d45 atm_tasks::calculateActualTimes, Task 3 end time: 19:18:35
+11-Dec-16,17:18:35.110 7        9d45 atm_tasks::calculateActualTimes, Task 2 duration: 3000 s
+11-Dec-16,17:18:35.110 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324081115
+11-Dec-16,17:18:35.110 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:50
+11-Dec-16,17:18:35.110 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324084115
+11-Dec-16,17:18:35.111 7        9d45 atm_tasks::calculateActualTimes, Task 2 start time: 19:18:35
+11-Dec-16,17:18:35.111 7        9d45 atm_tasks::calculateActualTimes, Task 2 end time: 20:08:35
+11-Dec-16,17:18:35.111 7        9d45 atm_tasks::calculateActualTimes, Task 1 duration: 1200 s
+11-Dec-16,17:18:35.111 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324084115
+11-Dec-16,17:18:35.111 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:20
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324085315
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, Task 1 start time: 20:08:35
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, Task 1 end time: 20:28:35
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, Task 4 duration: 2400 s
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324085315
+11-Dec-16,17:18:35.112 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:40
+11-Dec-16,17:18:35.113 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324087715
+11-Dec-16,17:18:35.113 7        9d45 atm_tasks::calculateActualTimes, Task 4 start time: 20:28:35
+11-Dec-16,17:18:35.113 7        9d45 atm_tasks::calculateActualTimes, Task 4 end time: 21:08:35
+11-Dec-16,17:18:35.113 7        9d45 atm_tasks::calculateActualTimes, Task 0 duration: 3600 s
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324073915
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, Timeest = 01:00:00
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324077515
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, Task 0 start time: 17:18:35
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, Task 0 end time: 18:18:35
+11-Dec-16,17:18:35.114 7        9d45 atm_tasks::calculateActualTimes, Task 8 duration: 600 s
+11-Dec-16,17:18:35.115 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324077515
+11-Dec-16,17:18:35.115 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:35.115 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078115
+11-Dec-16,17:18:35.115 7        9d45 atm_tasks::calculateActualTimes, Task 8 start time: 18:18:35
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, Task 8 end time: 18:28:35
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, Task 7 duration: 600 s
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, Old starttime = 1324078115
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, Timeest = 00:10
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, New starttime = 1324078715
+11-Dec-16,17:18:35.116 7        9d45 atm_tasks::calculateActualTimes, Task 7 start time: 18:28:35
+11-Dec-16,17:18:35.117 7        9d45 atm_tasks::calculateActualTimes, Task 7 end time: 18:38:35

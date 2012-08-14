@@ -1,0 +1,1507 @@
+11-Dec-15,17:49:33.118 5 **     0bbd sm_debug::write, Index file request: /tasks
+11-Dec-15,17:49:33.128 7        0bbd sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:49:33.129 7        0bbd sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:49:33.138 7        0bbd ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:49:33.138 7        0bbd ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:49:33.139 7        0bbd atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:49:33.139 7        0bbd atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:49:33.139 7        0bbd atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:49:33.139 7        0bbd atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:49:33.139 7        0bbd atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:49:33.140 7        0bbd atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:49:33.140 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:49:33.140 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:49:33.140 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:49:33.140 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:49:33.141 7        0bbd ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:49:33.141 7        0bbd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:49:33.142 7        0bbd atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:49:33.142 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:49:33.142 7        0bbd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:49:33.143 7        0bbd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:49:33.143 7        0bbd atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:49:33.143 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:49:33.143 7        0bbd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:49:33.144 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.144 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:49:33.144 7        0bbd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:49:33.144 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.145 7        0bbd atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:49:33.145 7        0bbd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:49:33.145 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.145 7        0bbd atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:49:33.146 7        0bbd atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:49:33.146 7        0bbd atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:49:33.146 7        0bbd atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:49:33.146 7        0bbd atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:49:33.146 7        0bbd atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:49:33.147 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:49:33.147 7        0bbd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:49:33.147 7        0bbd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:49:33.147 7        0bbd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:49:33.148 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.148 7        0bbd atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.148 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:49:33.149 7        0bbd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:49:33.149 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.149 7        0bbd atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.149 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:49:33.150 7        0bbd ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:49:33.150 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.150 7        0bbd atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.151 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:49:33.151 7        0bbd ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:49:33.151 7        0bbd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:49:33.151 7        0bbd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:49:33.152 7        0bbd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:49:33.152 7        0bbd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:49:33.152 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.153 7        0bbd atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 19:59:33
+11-Dec-15,17:49:33.153 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:49:33.153 7        0bbd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:49:33.153 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.154 7        0bbd atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.154 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:49:33.154 7        0bbd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:49:33.155 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.155 7        0bbd atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.155 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:49:33.155 7        0bbd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:49:33.156 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.156 7        0bbd atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.157 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:49:33.157 7        0bbd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:49:33.157 7        0bbd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:49:33.157 7        0bbd atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:49:33
+11-Dec-15,17:49:33.158 7        0bbd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:49:33.158 2 *****  0bbd atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:54:22.830 5 **     5021 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:54:22.841 7        5021 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:54:22.842 7        5021 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:54:22.858 7        5021 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:54:22.859 7        5021 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:54:22.860 7        5021 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:54:22.860 7        5021 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:54:22.860 7        5021 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:54:22.860 7        5021 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:54:22.861 7        5021 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:54:22.861 7        5021 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:54:22.861 7        5021 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:54:22.861 7        5021 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:54:22.861 7        5021 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:54:22.862 7        5021 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:54:22.862 7        5021 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:54:22.863 7        5021 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:22.863 7        5021 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:54:22.863 7        5021 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:54:22.863 7        5021 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:22.864 7        5021 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:22.864 7        5021 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:54:22.864 7        5021 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:54:22.864 7        5021 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:22.865 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.865 7        5021 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:54:22.865 7        5021 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:22.866 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.866 7        5021 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:54:22.866 7        5021 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:22.867 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.867 7        5021 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:54:22.867 7        5021 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:54:22.867 7        5021 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:54:22.868 7        5021 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:54:22.868 7        5021 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:54:22.868 7        5021 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:54:22.868 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:54:22.868 7        5021 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:22.869 7        5021 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:22.869 7        5021 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:22.869 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.870 7        5021 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.870 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:54:22.870 7        5021 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:22.870 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.871 7        5021 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.871 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:54:22.871 7        5021 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:54:22.871 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.872 7        5021 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.872 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:54:22.872 7        5021 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:54:22.873 7        5021 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:22.873 7        5021 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:22.873 7        5021 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:22.873 7        5021 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:22.874 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.874 7        5021 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:04:22
+11-Dec-15,17:54:22.874 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:22.875 7        5021 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:22.875 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.875 7        5021 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.876 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:54:22.876 7        5021 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:22.876 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.877 7        5021 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.877 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:22.877 7        5021 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:22.878 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.878 7        5021 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.878 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:54:22.878 7        5021 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:22.879 7        5021 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:22.879 7        5021 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:54:22
+11-Dec-15,17:54:22.879 7        5021 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:22.880 2 *****  5021 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:54:46.046 5 **     fa65 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:54:46.056 7        fa65 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:54:46.058 7        fa65 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:54:46.067 7        fa65 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:54:46.068 7        fa65 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:54:46.068 7        fa65 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:54:46.068 7        fa65 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:54:46.068 7        fa65 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:54:46.068 7        fa65 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:54:46.069 7        fa65 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:54:46.069 7        fa65 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:54:46.069 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:54:46.069 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:54:46.069 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:54:46.070 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:54:46.070 7        fa65 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:54:46.071 7        fa65 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:46.071 7        fa65 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:54:46.071 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:54:46.071 7        fa65 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:46.072 7        fa65 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:46.072 7        fa65 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:54:46.072 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:54:46.073 7        fa65 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:46.073 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.073 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:54:46.073 7        fa65 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:46.074 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.074 7        fa65 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:54:46.074 7        fa65 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:46.075 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.075 7        fa65 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:54:46.075 7        fa65 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:54:46.075 7        fa65 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:54:46.075 7        fa65 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:54:46.076 7        fa65 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:54:46.076 7        fa65 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:54:46.076 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:54:46.076 7        fa65 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:46.077 7        fa65 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:46.077 7        fa65 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:46.077 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.078 7        fa65 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.078 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:54:46.078 7        fa65 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:46.079 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.079 7        fa65 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.079 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:54:46.079 7        fa65 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:54:46.080 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.080 7        fa65 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.080 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:54:46.081 7        fa65 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:54:46.081 7        fa65 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:46.081 7        fa65 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:54:46.082 7        fa65 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:54:46.082 7        fa65 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:54:46.082 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.083 7        fa65 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:04:46
+11-Dec-15,17:54:46.083 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:46.083 7        fa65 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:46.084 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.084 7        fa65 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.084 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:54:46.084 7        fa65 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:46.085 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.085 7        fa65 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.085 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:46.086 7        fa65 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:54:46.086 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.086 7        fa65 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.087 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:54:46.087 7        fa65 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:54:46.087 7        fa65 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:54:46.087 7        fa65 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:54:46
+11-Dec-15,17:54:46.088 7        fa65 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:54:46.088 2 *****  fa65 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:55:31.005 5 **     fda5 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:55:31.016 7        fda5 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:55:31.017 7        fda5 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:55:31.028 7        fda5 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:55:31.030 7        fda5 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:55:31.030 7        fda5 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:55:31.031 7        fda5 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:55:31.031 7        fda5 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:55:31.031 7        fda5 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:55:31.032 7        fda5 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:55:31.032 7        fda5 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:55:31.033 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:55:31.033 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:55:31.033 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:55:31.034 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:55:31.034 7        fda5 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:55:31.035 7        fda5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:31.035 7        fda5 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:55:31.036 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:55:31.036 7        fda5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:31.036 7        fda5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:31.036 7        fda5 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:55:31.037 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:55:31.037 7        fda5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:31.037 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.038 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:55:31.038 7        fda5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:31.038 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.038 7        fda5 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:55:31.039 7        fda5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:31.039 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.039 7        fda5 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:55:31.039 7        fda5 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:55:31.040 7        fda5 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:55:31.040 7        fda5 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:55:31.040 7        fda5 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:55:31.040 7        fda5 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:55:31.040 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:55:31.041 7        fda5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:31.041 7        fda5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:31.041 7        fda5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:31.042 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.042 7        fda5 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.042 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:55:31.042 7        fda5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:31.043 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.043 7        fda5 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.043 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:55:31.044 7        fda5 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:55:31.044 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.044 7        fda5 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.044 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:55:31.045 7        fda5 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:55:31.045 7        fda5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:31.045 7        fda5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:31.046 7        fda5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:31.046 7        fda5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:31.046 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.047 7        fda5 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:05:31
+11-Dec-15,17:55:31.047 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:31.047 7        fda5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:31.048 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.048 7        fda5 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.048 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:55:31.048 7        fda5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:31.049 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.049 7        fda5 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.049 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:31.049 7        fda5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:31.050 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.050 7        fda5 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.050 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:55:31.051 7        fda5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:31.051 7        fda5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:31.051 7        fda5 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:55:31
+11-Dec-15,17:55:31.052 7        fda5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:31.052 2 *****  fda5 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:55:47.038 5 **     ebf3 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:55:47.048 7        ebf3 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:55:47.050 7        ebf3 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:55:47.058 7        ebf3 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:55:47.059 7        ebf3 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:55:47.059 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:55:47.059 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:55:47.060 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:55:47.061 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:55:47.061 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:55:47.061 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:55:47.062 7        ebf3 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:47.062 7        ebf3 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:55:47.062 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:55:47.063 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:47.063 7        ebf3 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:47.063 7        ebf3 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:55:47.064 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:55:47.064 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:47.064 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.064 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:55:47.065 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:47.065 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.065 7        ebf3 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:55:47.066 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:47.066 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.066 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:55:47.066 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:55:47.067 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:55:47.067 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:55:47.067 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:55:47.067 7        ebf3 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:55:47.067 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:55:47.068 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:47.068 7        ebf3 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:47.068 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:47.069 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.069 7        ebf3 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.069 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:55:47.069 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:47.070 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.070 7        ebf3 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.070 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:55:47.071 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:55:47.071 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.071 7        ebf3 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.071 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:55:47.072 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:55:47.072 7        ebf3 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:47.072 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:55:47.073 7        ebf3 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:55:47.073 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:55:47.074 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.074 7        ebf3 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:05:47
+11-Dec-15,17:55:47.074 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:47.074 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:47.075 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.075 7        ebf3 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.076 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:55:47.076 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:47.076 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.076 7        ebf3 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.077 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:47.077 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:55:47.077 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.078 7        ebf3 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.078 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:55:47.078 7        ebf3 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:55:47.079 7        ebf3 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:55:47.079 7        ebf3 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:55:47
+11-Dec-15,17:55:47.079 7        ebf3 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:55:47.079 2 *****  ebf3 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:56:33.546 5 **     7765 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:56:33.557 7        7765 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:56:33.559 7        7765 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:56:33.569 7        7765 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:56:33.570 7        7765 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:56:33.571 7        7765 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:56:33.571 7        7765 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:56:33.572 7        7765 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:56:33.572 7        7765 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:56:33.573 7        7765 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:56:33.573 7        7765 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:56:33.573 7        7765 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:56:33.574 7        7765 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:56:33.574 7        7765 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:56:33.575 7        7765 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:56:33.575 7        7765 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:56:33.576 7        7765 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:56:33.577 7        7765 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:56:33.577 7        7765 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:56:33.578 7        7765 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:56:33.579 7        7765 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:56:33.579 7        7765 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:56:33.579 7        7765 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:56:33.580 7        7765 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:56:33.581 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.581 7        7765 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:56:33.582 7        7765 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:56:33.582 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.583 7        7765 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:56:33.583 7        7765 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:56:33.584 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.584 7        7765 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:56:33.584 7        7765 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:56:33.585 7        7765 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:56:33.585 7        7765 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:56:33.585 7        7765 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:56:33.585 7        7765 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:56:33.585 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:56:33.586 7        7765 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:56:33.586 7        7765 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:56:33.586 7        7765 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:56:33.587 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.587 7        7765 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.587 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:56:33.588 7        7765 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:56:33.588 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.588 7        7765 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.589 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:56:33.589 7        7765 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:56:33.589 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.590 7        7765 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.590 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:56:33.590 7        7765 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:56:33.590 7        7765 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:56:33.591 7        7765 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:56:33.591 7        7765 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:56:33.591 7        7765 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:56:33.592 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.592 7        7765 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:06:33
+11-Dec-15,17:56:33.592 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:56:33.592 7        7765 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:56:33.593 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.593 7        7765 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.593 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:56:33.594 7        7765 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:56:33.594 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.594 7        7765 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.595 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:56:33.595 7        7765 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:56:33.595 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.595 7        7765 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.596 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:56:33.596 7        7765 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:56:33.596 7        7765 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:56:33.597 7        7765 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:56:33
+11-Dec-15,17:56:33.597 7        7765 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:56:33.597 2 *****  7765 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:56:33.597 1 ****** 7765 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 292, Error: errstr: Undefined variable: i, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 292
+11-Dec-15,17:57:08.240 5 **     44bd sm_debug::write, Index file request: /tasks
+11-Dec-15,17:57:08.249 7        44bd sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:57:08.250 7        44bd sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:57:08.259 7        44bd ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:57:08.260 7        44bd ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:57:08.261 7        44bd atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:57:08.261 7        44bd atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:57:08.262 7        44bd atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:57:08.262 7        44bd atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:57:08.263 7        44bd atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:57:08.263 7        44bd atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:57:08.263 7        44bd atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:57:08.263 7        44bd atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:57:08.263 7        44bd atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:57:08.264 7        44bd atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:57:08.264 7        44bd ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:57:08.265 7        44bd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:57:08.265 7        44bd atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:57:08.265 7        44bd atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:57:08.265 7        44bd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:57:08.266 7        44bd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:57:08.266 7        44bd atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:57:08.266 7        44bd atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:57:08.266 7        44bd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:57:08.267 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.267 7        44bd atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:57:08.267 7        44bd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:57:08.268 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.268 7        44bd atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:57:08.268 7        44bd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:57:08.269 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.269 7        44bd atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:57:08.269 7        44bd atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:57:08.269 7        44bd atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:57:08.269 7        44bd atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:57:08.270 7        44bd atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:57:08.270 7        44bd atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:57:08.270 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:57:08.270 7        44bd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:57:08.271 7        44bd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:57:08.271 7        44bd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:57:08.271 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.271 7        44bd atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.272 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:57:08.272 7        44bd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:57:08.272 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.272 7        44bd atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.273 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:57:08.273 7        44bd ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:57:08.273 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.273 7        44bd atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.274 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:57:08.274 7        44bd ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:57:08.274 7        44bd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:57:08.275 7        44bd ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:57:08.275 7        44bd ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:57:08.275 7        44bd ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:57:08.276 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.276 7        44bd atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:07:08
+11-Dec-15,17:57:08.276 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:57:08.276 7        44bd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:57:08.277 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.277 7        44bd atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.277 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:57:08.277 7        44bd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:57:08.278 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.278 7        44bd atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.278 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:57:08.279 7        44bd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:57:08.279 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.279 7        44bd atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.280 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:57:08.280 7        44bd ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:57:08.280 7        44bd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:57:08.281 7        44bd atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:57:08
+11-Dec-15,17:57:08.281 7        44bd atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:57:08.281 2 *****  44bd atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:57:08.281 1 ****** 44bd -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 293, Error: errstr: Undefined variable: i, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 293
+11-Dec-15,17:59:43.714 5 **     6239 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:59:43.724 7        6239 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:59:43.725 7        6239 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:59:43.731 7        6239 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:59:43.732 7        6239 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:59:43.733 7        6239 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:59:43.733 7        6239 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:59:43.733 7        6239 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:59:43.733 7        6239 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:59:43.733 7        6239 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:59:43.734 7        6239 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:59:43.734 7        6239 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:59:43.734 7        6239 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:59:43.734 7        6239 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:59:43.734 7        6239 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:59:43.735 7        6239 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:59:43.736 7        6239 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:43.736 7        6239 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:59:43.736 7        6239 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:59:43.736 7        6239 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:43.737 7        6239 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:43.737 7        6239 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:59:43.737 7        6239 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:59:43.738 7        6239 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:43.738 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.738 7        6239 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:59:43.738 7        6239 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:43.739 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.739 7        6239 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:59:43.739 7        6239 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:43.740 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.740 7        6239 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:59:43.740 7        6239 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:59:43.740 7        6239 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:59:43.741 7        6239 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:59:43.741 7        6239 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:59:43.741 7        6239 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:59:43.741 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:59:43.742 7        6239 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:43.742 7        6239 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:43.742 7        6239 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:43.743 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.743 7        6239 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.743 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:59:43.744 7        6239 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:43.744 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.744 7        6239 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.745 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:59:43.745 7        6239 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:59:43.745 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.745 7        6239 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.746 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:59:43.746 7        6239 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:59:43.746 7        6239 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:43.747 7        6239 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:43.747 7        6239 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:43.747 7        6239 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:43.748 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.748 7        6239 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:09:43
+11-Dec-15,17:59:43.748 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:43.749 7        6239 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:43.749 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.749 7        6239 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.750 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:59:43.750 7        6239 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:43.751 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.751 7        6239 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.751 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:43.751 7        6239 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:43.752 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.752 7        6239 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.753 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:59:43.753 7        6239 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:43.753 7        6239 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:43.754 7        6239 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:59:43
+11-Dec-15,17:59:43.754 7        6239 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:43.754 2 *****  6239 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:59:56.816 5 **     df12 sm_debug::write, Index file request: /tasks
+11-Dec-15,17:59:56.824 7        df12 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,17:59:56.826 7        df12 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,17:59:56.834 7        df12 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,17:59:56.835 7        df12 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,17:59:56.836 7        df12 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,17:59:56.836 7        df12 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,17:59:56.836 7        df12 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:59:56.836 7        df12 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:59:56.836 7        df12 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:59:56.837 7        df12 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:59:56.837 7        df12 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:59:56.837 7        df12 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:59:56.837 7        df12 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,17:59:56.837 7        df12 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,17:59:56.838 7        df12 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:59:56.838 7        df12 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:56.839 7        df12 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,17:59:56.839 7        df12 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,17:59:56.839 7        df12 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:56.840 7        df12 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:56.840 7        df12 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,17:59:56.840 7        df12 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,17:59:56.840 7        df12 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:56.841 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.841 7        df12 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,17:59:56.841 7        df12 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:56.842 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.842 7        df12 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,17:59:56.842 7        df12 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:56.843 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.843 7        df12 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,17:59:56.843 7        df12 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,17:59:56.843 7        df12 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,17:59:56.844 7        df12 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,17:59:56.844 7        df12 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,17:59:56.844 7        df12 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,17:59:56.844 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,17:59:56.844 7        df12 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:56.845 7        df12 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:56.845 7        df12 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:56.846 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.846 7        df12 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.846 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,17:59:56.847 7        df12 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:56.847 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.847 7        df12 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.848 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,17:59:56.848 7        df12 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,17:59:56.848 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.848 7        df12 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.849 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,17:59:56.849 7        df12 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,17:59:56.849 7        df12 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:56.850 7        df12 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,17:59:56.850 7        df12 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,17:59:56.850 7        df12 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,17:59:56.851 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.851 7        df12 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:09:56
+11-Dec-15,17:59:56.851 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:56.851 7        df12 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:56.852 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.852 7        df12 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.852 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:59:56.853 7        df12 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:56.853 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.853 7        df12 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.854 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:56.854 7        df12 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,17:59:56.854 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.855 7        df12 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.855 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,17:59:56.855 7        df12 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,17:59:56.856 7        df12 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,17:59:56.856 7        df12 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 17:59:56
+11-Dec-15,17:59:56.856 7        df12 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,17:59:56.856 2 *****  df12 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,17:59:56.857 1 ****** df12 -- file: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php line: 311, Error: errstr: Undefined variable: troublemakers, errno: 8, errfile: C:\MyFiles\WebSites\whatdoido\trunk\atm\tasks\atm_tasks.class.php, errline: 311
+11-Dec-15,18:00:10.185 5 **     9f64 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:00:10.190 7        9f64 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:00:10.190 7        9f64 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:00:10.208 7        9f64 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:00:10.209 7        9f64 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:00:10.209 7        9f64 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:00:10.209 7        9f64 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:00:10.210 7        9f64 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:00:10.210 7        9f64 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:00:10.210 7        9f64 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:00:10.210 7        9f64 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:00:10.210 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:00:10.211 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:00:10.211 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:00:10.211 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:00:10.211 7        9f64 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:00:10.212 7        9f64 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:00:10.212 7        9f64 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:00:10.212 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:00:10.213 7        9f64 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:00:10.213 7        9f64 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:00:10.213 7        9f64 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:00:10.214 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:00:10.214 7        9f64 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:00:10.215 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.215 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:00:10.215 7        9f64 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:00:10.216 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.216 7        9f64 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:00:10.217 7        9f64 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:00:10.217 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.217 7        9f64 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:00:10.218 7        9f64 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:00:10.218 7        9f64 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:00:10.218 7        9f64 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:00:10.219 7        9f64 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:00:10.219 7        9f64 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:00:10.219 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:00:10.219 7        9f64 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:00:10.220 7        9f64 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:00:10.220 7        9f64 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:00:10.221 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.221 7        9f64 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.222 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:00:10.222 7        9f64 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:00:10.223 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.223 7        9f64 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.223 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:00:10.224 7        9f64 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:00:10.224 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.225 7        9f64 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.225 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:00:10.225 7        9f64 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:00:10.226 7        9f64 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:00:10.226 7        9f64 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:00:10.227 7        9f64 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:00:10.227 7        9f64 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:00:10.228 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.228 7        9f64 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:10:10
+11-Dec-15,18:00:10.228 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:00:10.229 7        9f64 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:00:10.229 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.230 7        9f64 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.230 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:00:10.230 7        9f64 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:00:10.231 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.231 7        9f64 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.232 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:00:10.232 7        9f64 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:00:10.233 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.233 7        9f64 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.234 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:00:10.234 7        9f64 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:00:10.235 7        9f64 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:00:10.235 7        9f64 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:00:10
+11-Dec-15,18:00:10.235 7        9f64 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:00:10.236 2 *****  9f64 atm_tasks::insertTaskToSchedule, Looping on tasks: ,5,6
+11-Dec-15,18:00:58.744 5 **     4a4b sm_debug::write, Index file request: /tasks
+11-Dec-15,18:00:58.814 5 **     d131 sm_debug::write, Index file request: /favicon.ico
+11-Dec-15,18:01:08.255 5 **     e3b8 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:01:08.263 7        e3b8 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:01:08.265 7        e3b8 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:01:08.273 7        e3b8 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:01:08.275 7        e3b8 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:01:08.275 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:01:08.276 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:01:08.276 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:01:08.276 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:01:08.277 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:01:08.277 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:01:08.277 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:01:08.278 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:01:08.278 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:01:08.278 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:01:08.279 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:01:08.280 7        e3b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:08.281 7        e3b8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:01:08.281 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:01:08.281 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:08.282 7        e3b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:08.283 7        e3b8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:01:08.283 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:01:08.283 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:08.284 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.285 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:01:08.285 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:08.286 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.286 7        e3b8 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:01:08.287 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:08.287 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.288 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:01:08.288 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:01:08.288 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:01:08.289 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:01:08.289 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:01:08.290 7        e3b8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:01:08.290 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:01:08.290 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:08.291 7        e3b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:08.292 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:08.292 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.293 7        e3b8 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.293 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:01:08.294 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:08.294 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.295 7        e3b8 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.295 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:01:08.295 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:01:08.295 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.296 7        e3b8 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.296 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:01:08.296 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:01:08.297 7        e3b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:08.297 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:08.297 7        e3b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:08.298 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:08.298 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.298 7        e3b8 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:11:08
+11-Dec-15,18:01:08.299 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:08.299 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:08.299 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.300 7        e3b8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.300 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:01:08.300 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:08.301 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.301 7        e3b8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.301 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:08.301 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:08.302 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.302 7        e3b8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.302 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:01:08.303 7        e3b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:08.303 7        e3b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:08.303 7        e3b8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:01:08
+11-Dec-15,18:01:08.304 7        e3b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:08.304 2 *****  e3b8 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:01:57.204 5 **     2ae8 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:01:57.214 7        2ae8 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:01:57.216 7        2ae8 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:01:57.223 7        2ae8 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:01:57.223 7        2ae8 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:01:57.224 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:01:57.224 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:01:57.224 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:01:57.224 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:01:57.224 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:01:57.225 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:01:57.225 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:01:57.225 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:01:57.225 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:01:57.225 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:01:57.226 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:01:57.226 7        2ae8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:57.227 7        2ae8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:01:57.227 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:01:57.227 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:57.228 7        2ae8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:57.228 7        2ae8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:01:57.228 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:01:57.228 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:57.229 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.229 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:01:57.229 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:57.229 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.230 7        2ae8 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:01:57.230 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:57.230 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.230 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:01:57.231 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:01:57.231 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:01:57.231 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:01:57.231 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:01:57.231 7        2ae8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:01:57.232 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:01:57.232 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:57.232 7        2ae8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:57.232 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:57.233 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.233 7        2ae8 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.233 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:01:57.234 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:57.234 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.234 7        2ae8 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.234 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:01:57.235 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:01:57.235 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.235 7        2ae8 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.236 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:01:57.236 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:01:57.236 7        2ae8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:57.236 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:01:57.237 7        2ae8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:01:57.237 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:01:57.238 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.238 7        2ae8 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:11:57
+11-Dec-15,18:01:57.238 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:57.238 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:57.239 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.239 7        2ae8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.239 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:01:57.239 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:57.240 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.240 7        2ae8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.240 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:57.241 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:01:57.241 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.241 7        2ae8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.242 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:01:57.242 7        2ae8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:01:57.243 7        2ae8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:01:57.243 7        2ae8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:01:57
+11-Dec-15,18:01:57.243 7        2ae8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:01:57.243 2 *****  2ae8 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:02:04.415 5 **     7445 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:02:04.426 7        7445 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:02:04.427 7        7445 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:04.438 7        7445 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:02:04.439 7        7445 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:02:04.440 7        7445 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:02:04.440 7        7445 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:02:04.441 7        7445 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:04.441 7        7445 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:04.442 7        7445 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:04.442 7        7445 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:04.442 7        7445 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:04.443 7        7445 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:04.443 7        7445 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:02:04.443 7        7445 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:02:04.444 7        7445 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:04.446 7        7445 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:04.446 7        7445 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:04.447 7        7445 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:04.447 7        7445 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:04.448 7        7445 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:04.448 7        7445 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:04.449 7        7445 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:04.449 7        7445 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:04.450 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.450 7        7445 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:02:04.451 7        7445 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:04.452 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.452 7        7445 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:02:04.452 7        7445 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:04.453 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.454 7        7445 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:04.454 7        7445 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:04.454 7        7445 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:04.455 7        7445 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:04.455 7        7445 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:04.455 7        7445 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:04.455 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:02:04.456 7        7445 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:04.456 7        7445 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:04.456 7        7445 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:04.457 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.457 7        7445 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.457 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:02:04.458 7        7445 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:04.458 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.459 7        7445 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.459 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:02:04.459 7        7445 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:02:04.460 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.460 7        7445 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.460 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:02:04.461 7        7445 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:04.461 7        7445 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:04.461 7        7445 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:04.462 7        7445 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:04.462 7        7445 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:04.463 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.463 7        7445 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:12:04
+11-Dec-15,18:02:04.463 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:04.464 7        7445 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:04.464 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.465 7        7445 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.465 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:04.466 7        7445 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:04.466 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.466 7        7445 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.467 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:04.467 7        7445 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:04.468 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.468 7        7445 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.469 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:04.469 7        7445 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:04.470 7        7445 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:04.470 7        7445 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:04
+11-Dec-15,18:02:04.470 7        7445 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:04.470 2 *****  7445 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:02:08.465 5 **     258d sm_debug::write, Index file request: /
+11-Dec-15,18:02:08.474 7        258d sm_atm::__construct, Starting ATM: atm_default, ACP: 
+11-Dec-15,18:02:08.475 7        258d sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:10.974 5 **     e244 sm_debug::write, Index file request: /project/tasks?pid=1
+11-Dec-15,18:02:10.979 7        e244 sm_atm::__construct, Starting ATM: atm_project, ACP: tasks
+11-Dec-15,18:02:10.980 7        e244 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:11.272 5 **     7118 sm_debug::write, Index file request: /task/doLoad?pid=1&relid=R0&catid=C0&user_id=U0&status_id=S0&rtype=ajax
+11-Dec-15,18:02:11.282 7        7118 sm_atm::__construct, Starting ATM: atm_task, ACP: doLoad
+11-Dec-15,18:02:11.284 7        7118 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:11.290 7        7118 sm_atm::__construct, Running AJAX request
+11-Dec-15,18:02:11.290 7        7118 atm_task::acp_doLoad, Started
+11-Dec-15,18:02:11.291 7        7118 atm_task::acp_doLoad, Getting task list: 1, 0, 0, 0, 0
+11-Dec-15,18:02:11.291 7        7118 atm_task::acp_doLoad, Debug 1
+11-Dec-15,18:02:11.295 7        7118 atm_task::acp_doLoad, Debug 2
+11-Dec-15,18:02:11.295 7        7118 atm_task::acp_doLoad, Debug 3: 0
+11-Dec-15,18:02:11.297 7        7118 ent_task::getList, Getting task list: 1, 0, 0, 0, 0
+11-Dec-15,18:02:11.297 7        7118 ent_task::getList, Tasks found: 6
+11-Dec-15,18:02:11.299 7        7118 atm_task::acp_doLoad, Debug 4
+11-Dec-15,18:02:11.299 7        7118 atm_task::acp_doLoad, Debug 5: maxMinIdx = 1
+11-Dec-15,18:02:11.299 7        7118 atm_task::acp_doLoad, Debug 6
+11-Dec-15,18:02:11.299 7        7118 atm_task::acp_doLoad, Debug 7: key=1: AA
+11-Dec-15,18:02:13.536 5 **     69fd sm_debug::write, Index file request: /task/view?tid=5&pid=1
+11-Dec-15,18:02:13.546 7        69fd sm_atm::__construct, Starting ATM: atm_task, ACP: view
+11-Dec-15,18:02:13.548 7        69fd sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:13.560 7        69fd ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:13.561 7        69fd ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:13.562 7        69fd ent_task::getOpenList, Getting open task list: 1, 0, 0, 0
+11-Dec-15,18:02:13.563 7        69fd ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:02:15.666 5 **     78d3 sm_debug::write, Index file request: /project/tasks?pid=1
+11-Dec-15,18:02:15.675 7        78d3 sm_atm::__construct, Starting ATM: atm_project, ACP: tasks
+11-Dec-15,18:02:15.676 7        78d3 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:15.923 5 **     e03f sm_debug::write, Index file request: /task/doLoad?pid=1&relid=R0&catid=C0&user_id=U0&status_id=S0&rtype=ajax
+11-Dec-15,18:02:15.933 7        e03f sm_atm::__construct, Starting ATM: atm_task, ACP: doLoad
+11-Dec-15,18:02:15.934 7        e03f sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:15.941 7        e03f sm_atm::__construct, Running AJAX request
+11-Dec-15,18:02:15.941 7        e03f atm_task::acp_doLoad, Started
+11-Dec-15,18:02:15.942 7        e03f atm_task::acp_doLoad, Getting task list: 1, 0, 0, 0, 0
+11-Dec-15,18:02:15.942 7        e03f atm_task::acp_doLoad, Debug 1
+11-Dec-15,18:02:15.945 7        e03f atm_task::acp_doLoad, Debug 2
+11-Dec-15,18:02:15.945 7        e03f atm_task::acp_doLoad, Debug 3: 0
+11-Dec-15,18:02:15.947 7        e03f ent_task::getList, Getting task list: 1, 0, 0, 0, 0
+11-Dec-15,18:02:15.948 7        e03f ent_task::getList, Tasks found: 6
+11-Dec-15,18:02:15.949 7        e03f atm_task::acp_doLoad, Debug 4
+11-Dec-15,18:02:15.949 7        e03f atm_task::acp_doLoad, Debug 5: maxMinIdx = 1
+11-Dec-15,18:02:15.949 7        e03f atm_task::acp_doLoad, Debug 6
+11-Dec-15,18:02:15.949 7        e03f atm_task::acp_doLoad, Debug 7: key=1: AA
+11-Dec-15,18:02:16.864 5 **     b63b sm_debug::write, Index file request: /
+11-Dec-15,18:02:16.871 7        b63b sm_atm::__construct, Starting ATM: atm_default, ACP: 
+11-Dec-15,18:02:16.873 7        b63b sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:18.609 5 **     f855 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:02:18.619 7        f855 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:02:18.620 7        f855 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:18.629 7        f855 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:02:18.631 7        f855 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:02:18.631 7        f855 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:02:18.632 7        f855 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:02:18.632 7        f855 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:18.633 7        f855 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:18.633 7        f855 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:18.634 7        f855 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:18.634 7        f855 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:18.635 7        f855 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:18.635 7        f855 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:02:18.635 7        f855 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:02:18.636 7        f855 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:18.637 7        f855 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:18.638 7        f855 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:18.638 7        f855 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:18.639 7        f855 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:18.640 7        f855 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:18.640 7        f855 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:18.641 7        f855 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:18.641 7        f855 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:18.643 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.643 7        f855 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:02:18.644 7        f855 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:18.644 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.645 7        f855 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:02:18.645 7        f855 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:18.645 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.646 7        f855 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:18.646 7        f855 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:18.646 7        f855 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:18.646 7        f855 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:18.646 7        f855 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:18.647 7        f855 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:18.647 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:02:18.647 7        f855 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:18.647 7        f855 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:18.648 7        f855 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:18.648 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.648 7        f855 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.649 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:02:18.649 7        f855 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:18.650 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.650 7        f855 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.650 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:02:18.650 7        f855 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:02:18.651 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.651 7        f855 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.651 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:02:18.652 7        f855 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:18.652 7        f855 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:18.652 7        f855 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:18.653 7        f855 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:18.653 7        f855 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:18.653 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.654 7        f855 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:12:18
+11-Dec-15,18:02:18.654 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:18.654 7        f855 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:18.655 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.655 7        f855 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.656 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:18.656 7        f855 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:18.656 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.657 7        f855 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.657 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:18.657 7        f855 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:18.658 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.658 7        f855 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.659 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:18.659 7        f855 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:18.659 7        f855 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:18.659 7        f855 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:18
+11-Dec-15,18:02:18.660 7        f855 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:18.660 2 *****  f855 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:02:50.777 5 **     61b6 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:02:50.787 7        61b6 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:02:50.788 7        61b6 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:02:50.797 7        61b6 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:02:50.798 7        61b6 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:02:50.799 7        61b6 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:02:50.799 7        61b6 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:02:50.799 7        61b6 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:50.799 7        61b6 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:50.799 7        61b6 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:50.800 7        61b6 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:50.800 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:50.800 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:50.800 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:02:50.800 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:02:50.801 7        61b6 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:50.802 7        61b6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:50.802 7        61b6 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:50.802 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:02:50.802 7        61b6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:50.803 7        61b6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:50.803 7        61b6 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:50.803 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:02:50.804 7        61b6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:50.804 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.804 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:02:50.805 7        61b6 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:50.805 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.805 7        61b6 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:02:50.805 7        61b6 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:50.806 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.806 7        61b6 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:02:50.806 7        61b6 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:02:50.806 7        61b6 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:02:50.807 7        61b6 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:02:50.807 7        61b6 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-14 18:45:00
+11-Dec-15,18:02:50.807 7        61b6 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:02:50.807 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:02:50.807 7        61b6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:50.808 7        61b6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:50.808 7        61b6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:50.809 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.809 7        61b6 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.809 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:02:50.809 7        61b6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:50.810 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.810 7        61b6 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.810 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:02:50.811 7        61b6 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:02:50.811 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.811 7        61b6 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.811 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:02:50.812 7        61b6 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:02:50.812 7        61b6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:50.812 7        61b6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:02:50.813 7        61b6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:02:50.813 7        61b6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:02:50.813 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.814 7        61b6 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:12:50
+11-Dec-15,18:02:50.814 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:50.814 7        61b6 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:50.815 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.815 7        61b6 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.815 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:50.815 7        61b6 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:50.816 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.816 7        61b6 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.817 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:50.817 7        61b6 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:02:50.817 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.818 7        61b6 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.818 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:02:50.818 7        61b6 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:02:50.819 7        61b6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:02:50.819 7        61b6 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:02:50
+11-Dec-15,18:02:50.819 7        61b6 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:02:50.820 2 *****  61b6 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:03:06.692 5 **     60d5 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:03:06.701 7        60d5 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:03:06.703 7        60d5 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:03:06.710 7        60d5 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:03:06.711 7        60d5 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:03:06.712 7        60d5 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:03:06.712 7        60d5 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:03:06.712 7        60d5 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:06.712 7        60d5 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:06.713 7        60d5 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:06.713 7        60d5 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:03:06.713 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:06.713 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:06.714 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:03:06.714 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:03:06.715 7        60d5 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:06.715 7        60d5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:06.715 7        60d5 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:06.716 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:06.716 7        60d5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:06.716 7        60d5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:06.717 7        60d5 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:06.717 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:06.717 7        60d5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:06.718 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.718 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:03:06.718 7        60d5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:06.719 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.719 7        60d5 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:03:06.720 7        60d5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:06.720 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.720 7        60d5 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:06.721 7        60d5 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:06.721 7        60d5 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:06.721 7        60d5 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:06.721 7        60d5 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:06.722 7        60d5 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:03:06.722 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:03:06.722 7        60d5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:06.723 7        60d5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:06.723 7        60d5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:06.723 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.724 7        60d5 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.724 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:03:06.724 7        60d5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:06.725 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.725 7        60d5 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.725 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:03:06.726 7        60d5 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:03:06.726 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.726 7        60d5 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.727 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:03:06.727 7        60d5 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:06.728 7        60d5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:06.728 7        60d5 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:06.728 7        60d5 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:06.729 7        60d5 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:06.729 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.730 7        60d5 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:13:06
+11-Dec-15,18:03:06.730 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:06.730 7        60d5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:06.731 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.731 7        60d5 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.731 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:06.731 7        60d5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:06.732 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.732 7        60d5 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.732 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:06.733 7        60d5 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:06.733 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.734 7        60d5 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.734 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:06.734 7        60d5 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:06.735 7        60d5 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:06.735 7        60d5 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:06
+11-Dec-15,18:03:06.735 7        60d5 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:06.735 2 *****  60d5 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:03:10.799 5 **     f9b8 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:03:10.808 7        f9b8 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:03:10.809 7        f9b8 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:03:10.817 7        f9b8 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:03:10.818 7        f9b8 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:03:10.818 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:03:10.818 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:03:10.819 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:10.819 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:10.819 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:10.819 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:03:10.819 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:10.820 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:10.820 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:03:10.820 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:03:10.820 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:10.821 7        f9b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:10.821 7        f9b8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:10.821 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:10.822 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:10.822 7        f9b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:10.822 7        f9b8 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:10.823 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:10.823 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:10.823 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.823 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:03:10.824 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:10.824 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.824 7        f9b8 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:03:10.824 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:10.825 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.825 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:10.825 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:10.825 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:10.826 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:10.826 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:10.826 7        f9b8 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-14 19:45:00
+11-Dec-15,18:03:10.826 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:03:10.826 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:10.827 7        f9b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:10.827 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:10.827 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.828 7        f9b8 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.828 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:03:10.828 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:10.829 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.829 7        f9b8 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.829 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:03:10.829 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:03:10.830 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.830 7        f9b8 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.830 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:03:10.830 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:10.831 7        f9b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:10.831 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:10.831 7        f9b8 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:10.832 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:10.832 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.832 7        f9b8 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:13:10
+11-Dec-15,18:03:10.832 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:10.833 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:10.833 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.833 7        f9b8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.834 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:10.834 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:10.834 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.834 7        f9b8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.835 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:10.835 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:10.835 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.836 7        f9b8 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.836 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:10.836 7        f9b8 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:10.837 7        f9b8 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:10.837 7        f9b8 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:10
+11-Dec-15,18:03:10.837 7        f9b8 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:10.837 2 *****  f9b8 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:03:25.248 5 **     d008 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:03:25.257 7        d008 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:03:25.259 7        d008 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:03:25.268 7        d008 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:03:25.270 7        d008 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:03:25.270 7        d008 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:03:25.271 7        d008 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:03:25.271 7        d008 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:25.271 7        d008 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:25.272 7        d008 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:25.272 7        d008 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:25.273 7        d008 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:25.273 7        d008 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:25.273 7        d008 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:03:25.274 7        d008 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:03:25.274 7        d008 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:25.275 7        d008 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:25.275 7        d008 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:25.275 7        d008 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:25.276 7        d008 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:25.276 7        d008 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:25.276 7        d008 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:25.277 7        d008 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:25.277 7        d008 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:25.277 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.278 7        d008 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:03:25.278 7        d008 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:25.278 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.279 7        d008 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:03:25.279 7        d008 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:25.279 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.280 7        d008 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:25.280 7        d008 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:25.280 7        d008 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:25.280 7        d008 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:25.280 7        d008 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:25.281 7        d008 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:25.281 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:03:25.281 7        d008 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:25.281 7        d008 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:25.282 7        d008 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:25.282 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.282 7        d008 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.282 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:03:25.283 7        d008 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:25.283 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.283 7        d008 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.284 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:03:25.284 7        d008 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:03:25.284 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.284 7        d008 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.285 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:03:25.285 7        d008 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:25.285 7        d008 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:25.286 7        d008 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:25.286 7        d008 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:25.286 7        d008 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:25.287 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.287 7        d008 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:13:25
+11-Dec-15,18:03:25.287 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:25.287 7        d008 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:25.288 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.288 7        d008 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.288 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:25.288 7        d008 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:25.289 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.289 7        d008 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.289 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:25.290 7        d008 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:25.290 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.290 7        d008 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.290 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:25.291 7        d008 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:25.291 7        d008 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:25.291 7        d008 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:25
+11-Dec-15,18:03:25.292 7        d008 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:25.292 2 *****  d008 atm_tasks::insertTaskToSchedule, Looping on tasks: 5,6
+11-Dec-15,18:03:36.956 5 **     bea6 sm_debug::write, Index file request: /tasks
+11-Dec-15,18:03:36.966 7        bea6 sm_atm::__construct, Starting ATM: atm_tasks, ACP: 
+11-Dec-15,18:03:36.967 7        bea6 sm_sess::_open, save_path = C:\MyFiles\WebSites\whatdoido/sessions
+11-Dec-15,18:03:36.976 7        bea6 ent_task::getOpenList, Getting open task list: 0, 0, 0, 0
+11-Dec-15,18:03:36.978 7        bea6 ent_task::getOpenList, Tasks found: 6
+11-Dec-15,18:03:36.978 7        bea6 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 
+11-Dec-15,18:03:36.978 7        bea6 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 
+11-Dec-15,18:03:36.979 7        bea6 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:36.979 7        bea6 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:36.979 7        bea6 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:20:00
+11-Dec-15,18:03:36.979 7        bea6 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:36.979 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:36.980 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:36.980 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 3
+11-Dec-15,18:03:36.980 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 4
+11-Dec-15,18:03:36.981 7        bea6 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:36.981 7        bea6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:36.982 7        bea6 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 1, new deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:36.982 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 1
+11-Dec-15,18:03:36.982 7        bea6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:36.983 7        bea6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:36.983 7        bea6 atm_tasks::adjustParentDeadline, Setting deadline for task (no deadline before): 2, new deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:36.983 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 2
+11-Dec-15,18:03:36.983 7        bea6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:36.984 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:36.984 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 5
+11-Dec-15,18:03:36.985 7        bea6 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:36.985 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:36.985 7        bea6 atm_tasks::adjustParentDeadline, Task ID: 6
+11-Dec-15,18:03:36.986 7        bea6 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:36.986 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:36.986 7        bea6 atm_tasks::outputdebugtasks, Name: Task 1, Calculated deadline: 2011-12-19 23:20:00
+11-Dec-15,18:03:36.986 7        bea6 atm_tasks::outputdebugtasks, Name: Task 2, Calculated deadline: 2011-12-19 23:00:00
+11-Dec-15,18:03:36.987 7        bea6 atm_tasks::outputdebugtasks, Name: Task 3, Calculated deadline: 
+11-Dec-15,18:03:36.987 7        bea6 atm_tasks::outputdebugtasks, Name: Task 4, Calculated deadline: 2011-12-20 00:00:00
+11-Dec-15,18:03:36.987 7        bea6 atm_tasks::outputdebugtasks, Name: Task 5, Calculated deadline: 2011-12-15 19:20:00
+11-Dec-15,18:03:36.987 7        bea6 atm_tasks::outputdebugtasks, Name: Task 6, Calculated deadline: 2011-12-15 19:00:00
+11-Dec-15,18:03:36.987 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 1
+11-Dec-15,18:03:36.988 7        bea6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:36.988 7        bea6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:36.988 7        bea6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:36.989 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.989 7        bea6 atm_tasks::insertTaskToSchedule, Task 1 added at time position 2011-12-15 18:03:37
+11-Dec-15,18:03:37.989 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 2
+11-Dec-15,18:03:37.989 7        bea6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:37.990 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.990 7        bea6 atm_tasks::insertTaskToSchedule, Task 2 added at time position 2011-12-15 18:03:37
+11-Dec-15,18:03:37.990 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 3
+11-Dec-15,18:03:37.991 7        bea6 ent_dependency::depend_parents, Getting tasks that task 3 depends on.
+11-Dec-15,18:03:37.991 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.991 7        bea6 atm_tasks::insertTaskToSchedule, Task 3 added at time position 2011-12-15 18:03:37
+11-Dec-15,18:03:37.992 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 4
+11-Dec-15,18:03:37.992 7        bea6 ent_dependency::depend_parents, Getting tasks that task 4 depends on.
+11-Dec-15,18:03:37.992 7        bea6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:37.993 7        bea6 ent_dependency::depend_parents, Getting tasks that task 1 depends on.
+11-Dec-15,18:03:37.993 7        bea6 ent_dependency::depend_parents, Tasks found: 1
+11-Dec-15,18:03:37.993 7        bea6 ent_dependency::depend_parents, Getting tasks that task 2 depends on.
+11-Dec-15,18:03:37.994 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.994 7        bea6 atm_tasks::insertTaskToSchedule, Task 4 added at time position 2011-12-15 20:13:37
+11-Dec-15,18:03:37.995 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 5
+11-Dec-15,18:03:37.995 7        bea6 ent_dependency::depend_parents, Getting tasks that task 5 depends on.
+11-Dec-15,18:03:37.995 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.996 7        bea6 atm_tasks::insertTaskToSchedule, Task 5 added at time position 2011-12-15 18:03:37
+11-Dec-15,18:03:37.996 7        bea6 atm_tasks::insertTaskToSchedule, Inserting task 6
+11-Dec-15,18:03:37.996 7        bea6 ent_dependency::depend_parents, Getting tasks that task 6 depends on.
+11-Dec-15,18:03:37.997 7        bea6 ent_dependency::depend_parents, Tasks found: 0
+11-Dec-15,18:03:37.997 7        bea6 atm_tasks::insertTaskToSchedule, Task 6 added at time position 2011-12-15 18:03:37

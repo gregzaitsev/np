@@ -1,0 +1,82 @@
+HTML { 
+    -o-user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+BODY{
+	padding:0px;
+	margin:0px;
+	font-family:Tahoma;
+	font-size:12px;
+}
+TD,DIV{
+	font-family:Tahoma;
+	font-size:14px;
+	text-align:left;
+}
+TH{
+	font-family:Tahoma;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+}
+
+DIV#overlay{
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:100;
+	background-color:#AAAAAA;
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.header h1{
+	font-size: 20px;
+	padding:0px;
+	margin:0px;
+}
+
+TABLE.tasktable TH{
+	font-family:Verdana;
+	font-size: 12px;
+}
+
+TABLE.noteheader TD{
+	font-size: 10px;
+}
+
+TABLE.estimate TD{
+	font-family:Tahoma;
+	font-size:14px;
+	text-align:right;
+}
+
+TABLE.estimatedetails TD{
+	font-family:Tahoma;
+	font-size:10px;
+	text-align:right;
+}
+
+TABLE.history TD,TH{
+	font-family:Tahoma;
+	font-size:9px;
+}
+
+TABLE.fullhistory TD,TH{
+	font-family:Tahoma;
+	font-size:12px;
+	vertical-align:top;
+}
+
+TABLE.fullhistory {
+	border-style:solid;
+	border-color:#ffffff #ffffff #cccccc #ffffff;
+	border-collapse:collapse;
+}
+
+.progress-text {
+    width: 90px; height: 18px;
+}
